@@ -58,9 +58,9 @@
     <sys:String x:Key="Application_RunAsAdministrator_FailedTitle">以管理員身份運行失敗</sys:String>
     <sys:String x:Key="Application_RunAsAdministrator_FailedLabel">很抱歉，這個應用程式無法以管理員身份運行</sys:String>
     <sys:String x:Key="Application_SingleInstanceTitle">應用程式已經運行</sys:String>
-    <sys:String x:Key="Application_SingleInstanceLabel">該應用程式的另一個實例已經運行。你想切换到那個實例嗎？</sys:String>
-    <sys:String x:Key="Application_SingleInstance_FailedTitle">應用程式切换失敗</sys:String>
-    <sys:String x:Key="Application_SingleInstance_FailedLabel">無法切换到其他應用程式實例。開始新的應用程式實例。</sys:String>
+    <sys:String x:Key="Application_SingleInstanceLabel">該應用程式的另一個實例已經運行。你想切換到那個實例嗎？</sys:String>
+    <sys:String x:Key="Application_SingleInstance_FailedTitle">應用程式切換失敗</sys:String>
+    <sys:String x:Key="Application_SingleInstance_FailedLabel">無法切換到其他應用程式實例。開始新的應用程式實例。</sys:String>
     
     <sys:String x:Key="Application_DataDirectoryTitle">選取數據目錄</sys:String>
     <sys:String x:Key="Application_DataDirectoryLabel">似乎没有數據目錄集。數據目錄是您的配置文件和SteamCMD的儲存位置。它與伺服器安裝目錄不同，您可以為每個配置文件選取該目錄。现在將要求您選取伺服器管理器數據目錄所在的位置。以後可以在“設置”窗口中更改此設置。</sys:String>
@@ -98,7 +98,7 @@
     <sys:String x:Key="CommandLine_CopyButton_ConfirmTitle">複製到剪貼板</sys:String>
     <sys:String x:Key="CommandLine_CopyButton_ConfirmLabel">完成!</sys:String>
     <sys:String x:Key="CommandLine_CopyButton_ErrorTitle">複製到剪貼板失敗.</sys:String>
-    <sys:String x:Key="CommandLine_CopyButton_ErrorLabel">剪貼板無法打開。另一應用程式可能在使用它。請嘗试關閉其他應用程式並再次嘗试.</sys:String>
+    <sys:String x:Key="CommandLine_CopyButton_ErrorLabel">剪貼板無法打開。另一應用程式可能在使用它。請嘗試關閉其他應用程式並再次嘗試.</sys:String>
     <!--#endregion-->
 
     <!-- 自定義配置數據窗口窗口 -->
@@ -169,13 +169,13 @@
     <sys:String x:Key="ModDetails_Reload_FailedTitle">重新開啟MOD詳细錯誤</sys:String>
     <sys:String x:Key="ModDetails_Save_FailedTitle">保存MOD錯誤</sys:String>
     <sys:String x:Key="ModDetails_Save_UnknownTitle">未知MOD類型</sys:String>
-    <sys:String x:Key="ModDetails_Save_UnknownLabel">有一個或多個MOD尚未下载，這可能會阻止正確檢测到地圖MOD和總转换MOD。 你想繼續嗎？</sys:String>
+    <sys:String x:Key="ModDetails_Save_UnknownLabel">有一個或多個MOD尚未下载，這可能會阻止正確檢测到地圖MOD和總轉換MOD。 你想繼續嗎？</sys:String>
     <sys:String x:Key="ModDetails_Unsaved_Title">未保存更改</sys:String>
-    <sys:String x:Key="ModDetails_Unsaved_Label">您所做的更改尚未保存到配置文件，如果繼續，您的更改將被放弃。你想繼續嗎？-</sys:String>
+    <sys:String x:Key="ModDetails_Unsaved_Label">您所做的更改尚未保存到配置文件，如果繼續，您的更改將被放氣。你想繼續嗎？-</sys:String>
     <sys:String x:Key="ModDetails_WriteTimestamp_ConfirmTitle">寫入時間戳確認</sys:String>
     <sys:String x:Key="ModDetails_WriteTimestamp_ConfirmLabel">您將在伺服器管理器上次更新的文件中更新MOD版本。 你要繼續嗎？</sys:String>
     <sys:String x:Key="ModDetails_WriteTimestamp_FailedTitle">寫時間戳錯誤</sys:String>
-    <sys:String x:Key="ModDetails_WriteTimestamp_FailedLabel">無法找到或不存在MOD文件夾。 嘗试下载MOD並重试。</sys:String>
+    <sys:String x:Key="ModDetails_WriteTimestamp_FailedLabel">無法找到或不存在MOD文件夾。 嘗試下载MOD並重試。</sys:String>
     <sys:String x:Key="ModDetails_ModDetailFetchFailed_Label">無法從Steam獲取MOD詳细信息。</sys:String>
     
     <sys:String x:Key="ModDetails_TotalCountLabel">總數:</sys:String>
@@ -310,7 +310,7 @@
 
     <sys:String x:Key="GameDataWindow_AddErrorTitle">添加操作錯誤</sys:String>
     <sys:String x:Key="GameDataWindow_AddErrorLabel">讀取所選文件時發生錯誤。</sys:String>
-    <sys:String x:Key="GameDataWindow_ExistingFileErrorLabel">具有相同名稱的文件已存在，請删除现有文件，然後重试。</sys:String>
+    <sys:String x:Key="GameDataWindow_ExistingFileErrorLabel">具有相同名稱的文件已存在，請删除现有文件，然後重試。</sys:String>
     <sys:String x:Key="GameDataWindow_ClearTitle">確認清除動作</sys:String>
     <sys:String x:Key="GameDataWindow_ClearLabel">點擊“是”以確認您要清除所有内容。</sys:String>
     <sys:String x:Key="GameDataWindow_ClearErrorTitle">清除動作錯誤</sys:String>
@@ -382,7 +382,7 @@
     <sys:String x:Key="ServerMonitor_UpgradeServerTooltip">更新/驗證伺服器。</sys:String>
 
     <sys:String x:Key="ServerMonitor_UpgradeServer_FailedTitle">伺服器更新錯誤</sys:String>
-    <sys:String x:Key="ServerMonitor_UpgradeServer_FailedLabel">另一台伺服器正在升级，請等待升级完成，然後重试。</sys:String>
+    <sys:String x:Key="ServerMonitor_UpgradeServer_FailedLabel">另一台伺服器正在升级，請等待升级完成，然後重試。</sys:String>
     <sys:String x:Key="ServerMonitor_CloseWindow_ConfirmTitle">確認關閉窗口</sys:String>
     <sys:String x:Key="ServerMonitor_CloseWindow_ConfirmLabel">您目前正在執行伺服器更新，請關閉窗口，並断開與Steam cmd的連接。 您要繼續關閉窗口嗎？</sys:String>
     <!--#endregion-->
@@ -472,7 +472,7 @@
     <sys:String x:Key="GlobalSettings_ServerUpdateOnServerStartTooltip">如果啟用，當您手動啟動伺服器時，伺服器和mod文件將更新為最新版本。 注意：如果啟用了方舟MOD自動管理，將不會執行。</sys:String>
 
     <sys:String x:Key="GlobalSettings_SteamSettingsLabel">Steam設定</sys:String>
-    <sys:String x:Key="GlobalSettings_SteamCmdRemoveQuitLabel">停止SteamCMD關閉（仅用于调试）</sys:String>
+    <sys:String x:Key="GlobalSettings_SteamCmdRemoveQuitLabel">停止SteamCMD關閉（仅用于调試）</sys:String>
     <sys:String x:Key="GlobalSettings_SteamCmdRemoveQuitTooltip">如果啟用，完成後將不會關閉Steamcmd窗口。 您將需要手動關閉它或键入quit。 注意：不影响自動更新。</sys:String>
     <sys:String x:Key="GlobalSettings_SteamCmdUsernameLabel">玩家名：</sys:String>
     <sys:String x:Key="GlobalSettings_SteamCmdUsernameTooltip">與Steam帳戶關聯的玩家名。</sys:String>
@@ -515,8 +515,8 @@
     <sys:String x:Key="GlobalSettings_ValidateServerFilesTooltip">如果啟用，當自動更新程式運行時，它將在更新之前驗證伺服器文件。 這將减慢更新過程，但會確保您的伺服器文件没有损坏.</sys:String>
     <sys:String x:Key="GlobalSettings_UseSmartCopyLabel">使用智能高速缓存副本</sys:String>
     <sys:String x:Key="GlobalSettings_UseSmartCopyTooltip">如果啟用，當自動更新副本從缓存文件夾複製到伺服器文件夾上，它會檢查文件創建的時間。這將加速複製，因為它只會複製已更改過的文件.</sys:String>
-    <sys:String x:Key="GlobalSettings_RetryOnFailLabel">嘗试失敗重试</sys:String>
-    <sys:String x:Key="GlobalSettings_RetryOnFailTooltip">如果啟用，當伺服器或MOD下载失敗時，將嘗试重试。</sys:String>
+    <sys:String x:Key="GlobalSettings_RetryOnFailLabel">嘗試失敗重試</sys:String>
+    <sys:String x:Key="GlobalSettings_RetryOnFailTooltip">如果啟用，當伺服器或MOD下载失敗時，將嘗試重試。</sys:String>
     <sys:String x:Key="GlobalSettings_ShowUpdateReasonLabel">顯示更新的原因</sys:String>
     <sys:String x:Key="GlobalSettings_ShowUpdateReasonTooltip">如果啟用，當執行自動更新時，公告消息將提示（伺服器或MOD）正在更新.</sys:String>
     <sys:String x:Key="GlobalSettings_UpdateReasonPrefixLabel">更新原因前缀:</sys:String>
@@ -573,7 +573,7 @@
     <sys:String x:Key="GlobalSettings_EmailFromTooltip">發件人地址的電子邮件.</sys:String>
     <sys:String x:Key="GlobalSettings_EmailToLabel">發送目标:</sys:String>
     <sys:String x:Key="GlobalSettings_EmailToTooltip">地址集合，其中包含電子邮件的收件人。用逗號分隔多個電子邮件地址 (,).</sys:String>
-    <sys:String x:Key="GlobalSettings_EmailTestButtonLabel">發送测试電子邮件</sys:String>
+    <sys:String x:Key="GlobalSettings_EmailTestButtonLabel">發送测試電子邮件</sys:String>
     <sys:String x:Key="GlobalSettings_EmailNotifySettingsLabel">電子邮件通知設置</sys:String>
     <sys:String x:Key="GlobalSettings_EmailNotify_AutoBackupLabel">自動備份</sys:String>
     <sys:String x:Key="GlobalSettings_EmailNotify_AutoBackupTooltip">如果啟用，如果自動備份過程中備份伺服器，則將發送電子邮件。</sys:String>
@@ -604,22 +604,22 @@
     <sys:String x:Key="GlobalSettings_ResetSettings_FailedTitle">無法重置設置</sys:String>
     <sys:String x:Key="GlobalSettings_ResetSettings_FailedLabel">重置設置時出现錯誤。 該應用程式现在將關閉。</sys:String>
     <sys:String x:Key="GlobalSettings_DataDirectoryChange_ConfirmTitle">確認更改數據目錄</sys:String>
-    <sys:String x:Key="GlobalSettings_DataDirectoryChange_ConfirmLabel">更改數據目錄將任何现有的配置文件移動到新位置，但不會移動任何伺服器安裝。 你還想改变這個目錄嗎？</sys:String>
+    <sys:String x:Key="GlobalSettings_DataDirectoryChange_ConfirmLabel">更改數據目錄將任何现有的配置文件移動到新位置，但不會移動任何伺服器安裝。 你還想改變這個目錄嗎？</sys:String>
     <sys:String x:Key="GlobalSettings_DataDirectoryChange_FailedTitle">無法更改數據目錄</sys:String>
-    <sys:String x:Key="GlobalSettings_DataDirectoryChange_FailedLabel">更改數據目錄時出现錯誤：{0} \ r \ n請更正錯誤，然後重试，或聯系技术支持以獲取幫助。</sys:String>
+    <sys:String x:Key="GlobalSettings_DataDirectoryChange_FailedLabel">更改數據目錄時出现錯誤：{0} \ r \ n請更正錯誤，然後重試，或聯系技术支持以獲取幫助。</sys:String>
 
     <sys:String x:Key="GlobalSettings_DataDirectoryTitle">選取備份目錄</sys:String>
     <sys:String x:Key="GlobalSettings_CacheDirectoryTitle">選取缓存目錄</sys:String>
     <sys:String x:Key="GlobalSettings_CacheDirectory_ErrorTitle">缓存目錄無效</sys:String>
     <sys:String x:Key="GlobalSettings_CacheDirectory_ErrorLabel">缓存目錄必須指定有效的位置，或者缓存更新周期必須為0。</sys:String>
     <sys:String x:Key="GlobalSettings_CacheTaskUpdate_ErrorTitle">更新任務失敗</sys:String>
-    <sys:String x:Key="GlobalSettings_CacheTaskUpdate_ErrorLabel">無法更新缓存任務。 確保您具有管理權限，然後重试。</sys:String>
+    <sys:String x:Key="GlobalSettings_CacheTaskUpdate_ErrorLabel">無法更新缓存任務。 確保您具有管理權限，然後重試。</sys:String>
     <sys:String x:Key="GlobalSettings_CacheUpdate_EnabledTitle">已啟用更新</sys:String>
     <sys:String x:Key="GlobalSettings_CacheUpdate_EnabledLabel">伺服器缓存每隔 {0} 分鐘更新一次。</sys:String>
     <sys:String x:Key="GlobalSettings_CacheUpdate_DisabledTitle">已停用更新</sys:String>
     <sys:String x:Key="GlobalSettings_CacheUpdate_DisabledLabel">伺服器缓存更新已禁用。</sys:String>
     <sys:String x:Key="GlobalSettings_BackupTaskUpdate_ErrorTitle">更新任務失敗</sys:String>
-    <sys:String x:Key="GlobalSettings_BackupTaskUpdate_ErrorLabel">無法更新伺服器備份任務。 確保您具有管理權限，然後重试。</sys:String>
+    <sys:String x:Key="GlobalSettings_BackupTaskUpdate_ErrorLabel">無法更新伺服器備份任務。 確保您具有管理權限，然後重試。</sys:String>
     <sys:String x:Key="GlobalSettings_BackupTaskUpdate_EnabledTitle">已啟用備份</sys:String>
     <sys:String x:Key="GlobalSettings_BackupTaskUpdate_EnabledLabel">伺服器備份將每 {0} 分鐘運行一次。</sys:String>
     <sys:String x:Key="GlobalSettings_BackupTaskUpdate_DisabledTitle">備份已停用</sys:String>
@@ -649,8 +649,8 @@
     <sys:String x:Key="GlobalSettings_Alerts_UpdateResultsTooltip">當自動更新過程找到要更新的内容時，將顯示此消息。</sys:String>
     <sys:String x:Key="GlobalSettings_Alerts_ServerUpdateLabel">伺服器更新消息：</sys:String>
     <sys:String x:Key="GlobalSettings_Alerts_ServerUpdateTooltip">當游戲伺服器更新時，將顯示此消息。</sys:String>
-    <sys:String x:Key="GlobalSettings_Alerts_ServerStatusChangeLabel">伺服器狀態变化：</sys:String>
-    <sys:String x:Key="GlobalSettings_Alerts_ServerStatusChangeTooltip">當伺服器的狀態發生变化時，將顯示此消息。</sys:String>
+    <sys:String x:Key="GlobalSettings_Alerts_ServerStatusChangeLabel">伺服器狀態變化：</sys:String>
+    <sys:String x:Key="GlobalSettings_Alerts_ServerStatusChangeTooltip">當伺服器的狀態發生變化時，將顯示此消息。</sys:String>
     <sys:String x:Key="GlobalSettings_Alerts_ModUpdateDetectedLabel">檢测到MOD更新：</sys:String>
     <sys:String x:Key="GlobalSettings_Alerts_ModUpdateDetectedTooltip">當伺服器管理器檢测到一個或多個mod已過期時，將顯示此消息。</sys:String>
     <sys:String x:Key="GlobalSettings_Alerts_ForceRespawnDinosLabel">强制重生恐龍警告：</sys:String>
@@ -664,7 +664,7 @@
     <sys:String x:Key="MainWindow_NewProfileTooltip">創建一個新的伺服器配置文件.</sys:String>
     <sys:String x:Key="MainWindow_CloseProfileTooltip">删除目前的伺服器配置文件.</sys:String>
     <sys:String x:Key="MainWindow_VersionLabel">目前版本:</sys:String>
-    <sys:String x:Key="MainWindow_BetaVersionLabel">测试版:</sys:String>
+    <sys:String x:Key="MainWindow_BetaVersionLabel">测試版:</sys:String>
     <sys:String x:Key="MainWindow_MyIpLabel">我的公網IP:</sys:String>
     <sys:String x:Key="MainWindow_MyIpTooltip">這個IP地址是互聯網玩家能夠連接到您的伺服器.</sys:String>
     <sys:String x:Key="MainWindow_MyIpError">無效的IP地址或主機名</sys:String>
@@ -718,7 +718,7 @@
     <sys:String x:Key="MainWindow_SteamCmd_Title">重新安裝 SteamCMD</sys:String>
     <sys:String x:Key="MainWindow_SteamCmd_Label">如果你進行重新安裝，整個SteamCMD文件夾將被删除，包括所有的MOD下载缓存.\r\n你確定你想重新安裝 SteamCMD?</sys:String>
     <sys:String x:Key="MainWindow_SteamCmd_FailedTitle">重新安裝 SteamCMD 錯誤</sys:String>
-    <sys:String x:Key="MainWindow_SteamCmd_FailedLabel">在嘗试重新安裝SteamCMD時出錯。這让SteamCMD處于不稳定的狀態，請嘗试重新安裝一遍或請報告.\r\n例外: {0}</sys:String>
+    <sys:String x:Key="MainWindow_SteamCmd_FailedLabel">在嘗試重新安裝SteamCMD時出錯。這让SteamCMD處于不稳定的狀態，請嘗試重新安裝一遍或請報告.\r\n例外: {0}</sys:String>
 
     <sys:String x:Key="MainWindow_ServerStatus_StartServerActionTitle">啟動伺服器確認</sys:String>
     <sys:String x:Key="MainWindow_ServerStatus_StartServerActionLabel">您即將啟動伺服器，你想繼續嗎？</sys:String>
@@ -867,9 +867,9 @@
     <sys:String x:Key="ServerSettings_Save_AutoUpdate_SotF_ErrorTitle">SotF不兼容</sys:String>
     <sys:String x:Key="ServerSettings_Save_AutoUpdate_SotF_ErrorLabel">自動更新已啟用，但與SotF不兼容。 禁用自動更新。</sys:String>
     <sys:String x:Key="ServerSettings_Save_UpdatePermissions_ErrorTitle">更新目錄權限</sys:String>
-    <sys:String x:Key="ServerSettings_Save_UpdatePermissions_ErrorLabel">無法更新目錄權限。 確保您對此計算機具有管理員權限，然後重试。 如果问题仍然存在，請將此報告為錯誤。</sys:String>
+    <sys:String x:Key="ServerSettings_Save_UpdatePermissions_ErrorLabel">無法更新目錄權限。 確保您對此計算機具有管理員權限，然後重試。 如果问题仍然存在，請將此報告為錯誤。</sys:String>
     <sys:String x:Key="ServerSettings_Save_UpdateSchedule_ErrorTitle">更新計划失敗</sys:String>
-    <sys:String x:Key="ServerSettings_Save_UpdateSchedule_ErrorLabel">未能更新計划的任務。確保您在這台機器上有管理員權限，然後再试一次。如果问题仍然存在，請報告這是一個錯誤.</sys:String>
+    <sys:String x:Key="ServerSettings_Save_UpdateSchedule_ErrorLabel">未能更新計划的任務。確保您在這台機器上有管理員權限，然後再試一次。如果问题仍然存在，請報告這是一個錯誤.</sys:String>
     <sys:String x:Key="ServerSettings_LoadCustomConfig_Title">開啟ini文件。</sys:String>
     <sys:String x:Key="ServerSettings_LoadCustomConfig_Label">ini文件已成功開啟。</sys:String>
     <sys:String x:Key="ServerSettings_LoadCustomConfig_ErrorTitle">Ini文件開啟錯誤</sys:String>
@@ -927,13 +927,13 @@
     <sys:String x:Key="ServerSettings_MapsAndModsSOTFLabel">大逃殺啟用——地圖和MOD禁用</sys:String>
     <sys:String x:Key="ServerSettings_MapPathLabel">地圖名稱或MOD地圖路徑:</sys:String>
     <sys:String x:Key="ServerSettings_MapPathTooltip">标準地圖名稱 (例如. TheIsland,TheCenter,ScorchedEarth_P,Ragnarok).或本地MOD地圖 例如:(/Game/Mods/504122600/Valhalla) 數字是MOD ID 後面是MOD地圖名字，記得更新你的伺服器下载MOD地圖。</sys:String>
-    <sys:String x:Key="ServerSettings_TotalConversionLabel">總转换MOD ID:</sys:String>
-    <sys:String x:Key="ServerSettings_TotalConversionTooltip">總转换MOD ID，是方舟裡的一個模式转换！.</sys:String>
-        <sys:String x:Key="ServerSettings_FindTotalConversionMapNameTooltip">讀取總转换MOD ID找到地圖名稱</sys:String>
-    <sys:String x:Key="ServerSettings_FindTotalConversionMapNameSuccessTitle">查找總转换地圖名稱</sys:String>
+    <sys:String x:Key="ServerSettings_TotalConversionLabel">總轉換MOD ID:</sys:String>
+    <sys:String x:Key="ServerSettings_TotalConversionTooltip">總轉換MOD ID，是方舟裡的一個模式轉換！.</sys:String>
+        <sys:String x:Key="ServerSettings_FindTotalConversionMapNameTooltip">讀取總轉換MOD ID找到地圖名稱</sys:String>
+    <sys:String x:Key="ServerSettings_FindTotalConversionMapNameSuccessTitle">查找總轉換地圖名稱</sys:String>
     <sys:String x:Key="ServerSettings_FindTotalConversionMapNameSuccessLabel">地圖名稱已更新。</sys:String>
-    <sys:String x:Key="ServerSettings_FindTotalConversionMapNameErrorTitle">查找總转换地圖名稱錯誤</sys:String>
-    <sys:String x:Key="ServerSettings_FindTotalConversionMapNameErrorLabel">找不到地圖名稱，請檢查總转换MOD ID是否正確以及MOD是否已下载。</sys:String>
+    <sys:String x:Key="ServerSettings_FindTotalConversionMapNameErrorTitle">查找總轉換地圖名稱錯誤</sys:String>
+    <sys:String x:Key="ServerSettings_FindTotalConversionMapNameErrorLabel">找不到地圖名稱，請檢查總轉換MOD ID是否正確以及MOD是否已下载。</sys:String>
     <sys:String x:Key="ServerSettings_ModIdsLabel">MOD ID编號:</sys:String>
     <sys:String x:Key="ServerSettings_ModIdsTooltip">每個Mod ID编號之間請使用“,”小寫逗號来分開，以及以啟動顺序来排列.</sys:String>
     <sys:String x:Key="ServerSettings_ModDetailsTooltip">查看MOD詳细信息.</sys:String>
@@ -990,7 +990,7 @@
     <sys:String x:Key="ServerSettings_UseBattlEyeTooltip">如果啟用,BattlEye防外挂系统將啟用。</sys:String>
     <sys:String x:Key="ServerSettings_AntiSpeedHackBiasUnits">倍</sys:String>
     <sys:String x:Key="ServerSettings_UseAllAvailableCoresLabel">使用所有可用内核</sys:String>
-    <sys:String x:Key="ServerSettings_UseAllAvailableCoresTooltip">如果啟用，將使用您的所有CPU核心，如果在使用此啟動選項後没有使用所有核心，則嘗试禁用它。</sys:String>
+    <sys:String x:Key="ServerSettings_UseAllAvailableCoresTooltip">如果啟用，將使用您的所有CPU核心，如果在使用此啟動選項後没有使用所有核心，則嘗試禁用它。</sys:String>
     <sys:String x:Key="ServerSettings_UseCacheLabel">使用缓存</sys:String>
     <sys:String x:Key="ServerSettings_UseCacheTooltip">如果啟用，開啟速度可提高约70%。你開始游戲的第一次和第二次仍然會很慢，但是第三次以後會很快。</sys:String>
     <sys:String x:Key="ServerSettings_UseOldSaveFormatLabel">使用舊的保存格式</sys:String>
@@ -1028,7 +1028,7 @@
     <sys:String x:Key="ServerSettings_EpicOnlyLabel">仅限EPIC平台</sys:String>
     <sys:String x:Key="ServerSettings_EpicOnlyTooltip">如果啟用，將只允許使用EPIC客戶端的玩家連接。</sys:String>
     <sys:String x:Key="ServerSettings_EnablePublicIPForEpicLabel">啟用EPIC公共IP</sys:String>
-    <sys:String x:Key="ServerSettings_EnablePublicIPForEpicTooltip">如果啟用，將為EPIC客戶端將嘗试連接的公共IP添加一個伺服器参數。</sys:String>
+    <sys:String x:Key="ServerSettings_EnablePublicIPForEpicTooltip">如果啟用，將為EPIC客戶端將嘗試連接的公共IP添加一個伺服器参數。</sys:String>
     <sys:String x:Key="ServerSettings_ForceRespawnDinosLabel">啟動時强制重生恐龍(在重新刷新時導致“就绪”後的延遲)</sys:String>
     <sys:String x:Key="ServerSettings_ForceRespawnDinosTooltip">如果啟用，將在啟動伺服器後，將清除並重生所有野生動物（這只會消灭目前尚未馴服的野生動物）。</sys:String>
     <sys:String x:Key="ServerSettings_EnableServerAutoForceRespawnWildDinosIntervalLabel">啟用自動强制重生恐龍</sys:String>
@@ -1079,7 +1079,7 @@
     <sys:String x:Key="ServerSettings_BranchClearErrorTitle">清除分支錯誤</sys:String>
 
     <sys:String x:Key="ServerSettings_EventLabel">活動詳情</sys:String>
-    <sys:String x:Key="ServerSettings_EventNote">注意：仅在正式事件運行時才应在伺服器上啟用事件。 如果您在正式日期之前或之後啟用了該事件，則該事件可能會導致伺服器变得不稳定或根本無法工作。</sys:String>
+    <sys:String x:Key="ServerSettings_EventNote">注意：仅在正式事件運行時才应在伺服器上啟用事件。 如果您在正式日期之前或之後啟用了該事件，則該事件可能會導致伺服器變得不稳定或根本無法工作。</sys:String>
     <sys:String x:Key="ServerSettings_EventNameLabel">活動事件：</sys:String>
     <sys:String x:Key="ServerSettings_EventNameTooltip">要啟用的事件的名稱（留空以禁用事件）。</sys:String>
 
@@ -1153,9 +1153,9 @@
     <sys:String x:Key="ServerSettings_PlatformSaddleBuildAreaBoundsMultiplierLabel">平台鞍建築範圍倍數</sys:String>
     <sys:String x:Key="ServerSettings_PlatformSaddleBuildAreaBoundsMultiplierTooltip">增加建築放置在平台鞍上的範圍倍數。</sys:String>
     <sys:String x:Key="ServerSettings_MaxGateFrameOnSaddlesLabel">平台鞍最大门框數量</sys:String>
-    <sys:String x:Key="ServerSettings_MaxGateFrameOnSaddlesTooltip">限制可以放置在平台鞍上的门框數量。 此配置不會改变之前的狀况，因此需要一些手動操作来清除任何之前就存在的超出數量限制的平台。</sys:String>
+    <sys:String x:Key="ServerSettings_MaxGateFrameOnSaddlesTooltip">限制可以放置在平台鞍上的门框數量。 此配置不會改變之前的狀况，因此需要一些手動操作来清除任何之前就存在的超出數量限制的平台。</sys:String>
     <sys:String x:Key="ServerSettings_EnableDifficultyOverrideLabel">啟用难度覆盖</sys:String>
-    <sys:String x:Key="ServerSettings_EnableDifficultyOverrideTooltip">如果啟用，允許方舟最高级别的生物被改变。</sys:String>
+    <sys:String x:Key="ServerSettings_EnableDifficultyOverrideTooltip">如果啟用，允許方舟最高级别的生物被改變。</sys:String>
     <sys:String x:Key="ServerSettings_OverrideOfficialDifficultyLabel">最大恐龍级别：</sys:String>
     <sys:String x:Key="ServerSettings_OverrideOfficialDifficultyTooltip">確定方舟生物的最大等级.該值越高,最大生物等级越高.</sys:String>
     <sys:String x:Key="ServerSettings_DifficultyOffsetLabel">难度偏移：</sys:String>
@@ -1210,13 +1210,13 @@
     <sys:String x:Key="ServerSettings_PreventOfflinePvPLabel">防止離線PVP</sys:String>
     <sys:String x:Key="ServerSettings_PreventOfflinePvPTooltip">如果啟用，則禁止袭擊離線玩家的预防措施.</sys:String>
     <sys:String x:Key="ServerSettings_PreventOfflinePvPIntervalLabel">離線間隔</sys:String>
-    <sys:String x:Key="ServerSettings_PreventOfflinePvPIntervalTooltip">规定時間内部落的玩家/恐龍/建築变得無敌（要求部落内所有成員都離線後才生效）.</sys:String>
+    <sys:String x:Key="ServerSettings_PreventOfflinePvPIntervalTooltip">规定時間内部落的玩家/恐龍/建築變得無敌（要求部落内所有成員都離線後才生效）.</sys:String>
     <sys:String x:Key="ServerSettings_PreventOfflinePvPIntervalUnits">秒</sys:String>
     <sys:String x:Key="ServerSettings_PreventOfflinePvPConnectionInvincibleIntervalLabel">登錄無敌間隔</sys:String>
     <sys:String x:Key="ServerSettings_PreventOfflinePvPConnectionInvincibleIntervalTooltip">登錄後的時間段内，玩家獲得無损傷增益，以防止登錄後立即造成人物死亡。</sys:String>
 
     <sys:String x:Key="ServerSettings_PvEScheduleLabel">PVE保护時間</sys:String>
-    <sys:String x:Key="ServerSettings_PvEScheduleTooltip">如果啟用，允許切换PVE和PVP之間在预先指定的游戲時間或预先指定的真實世界時間.</sys:String>
+    <sys:String x:Key="ServerSettings_PvEScheduleTooltip">如果啟用，允許切換PVE和PVP之間在预先指定的游戲時間或预先指定的真實世界時間.</sys:String>
     <sys:String x:Key="ServerSettings_UseServerTimeLabel">使用伺服器時間</sys:String>
     <sys:String x:Key="ServerSettings_UseServerTimeTooltip">如果啟用，該計划將使用方舟伺服器上的真實時間；否則，它使用游戲時間.</sys:String>
     <sys:String x:Key="ServerSettings_StartTimeLabel">開始時間:</sys:String>
@@ -1320,7 +1320,7 @@
     <sys:String x:Key="ServerSettings_HexagonCostMultiplierTooltip">設置六角币消耗倍數.</sys:String>
 
     <sys:String x:Key="ServerSettings_ItemStatClampsLabel">物品品質設置</sys:String>
-    <sys:String x:Key="ServerSettings_ItemStatClampsNoteLabel">注意：這將永久改变现有物品的品質.</sys:String>
+    <sys:String x:Key="ServerSettings_ItemStatClampsNoteLabel">注意：這將永久改變现有物品的品質.</sys:String>
     <sys:String x:Key="ServerSettings_ItemStatClamps_GenericQualityLabel">通用質量</sys:String>
     <sys:String x:Key="ServerSettings_ItemStatClamps_ArmorLabel">护甲</sys:String>
     <sys:String x:Key="ServerSettings_ItemStatClamps_MaxDurabilityLabel">最大耐久</sys:String>
@@ -1354,9 +1354,9 @@
     <sys:String x:Key="ServerSettings_AllowMapPlayerLocationLabel">允許地圖顯示位置</sys:String>
     <sys:String x:Key="ServerSettings_AllowMapPlayerLocationTooltip">如果啟用，將顯示玩家在地圖上的位置.</sys:String>
     <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvPLabel">啟用PVP伽马設置</sys:String>
-    <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvPTooltip">如果啟用，允許在PVP模式中调整伽马变化.</sys:String>
+    <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvPTooltip">如果啟用，允許在PVP模式中调整伽马變化.</sys:String>
     <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvELabel">啟用PVE伽马設置</sys:String>
-    <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvETooltip">如果啟用，允許在PVE模式中调整伽马变化.</sys:String>
+    <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvETooltip">如果啟用，允許在PVE模式中调整伽马變化.</sys:String>
     <sys:String x:Key="ServerSettings_ShowFloatingDamageTextLabel">顯示浮動傷害數值</sys:String>
     <sys:String x:Key="ServerSettings_ShowFloatingDamageTextTooltip">如果啟用，使用RPG風格的弹出傷害數值模式.</sys:String>
     <sys:String x:Key="ServerSettings_AllowHitMarkersLabel">允許擊中标記</sys:String>
@@ -1516,7 +1516,7 @@
     <sys:String x:Key="ServerSettings_ModColumnLabel">MOD</sys:String>
     <sys:String x:Key="ServerSettings_SpawnableColumnLabel">刷新</sys:String>
     <sys:String x:Key="ServerSettings_TameableColumnLabel">馴服</sys:String>
-    <sys:String x:Key="ServerSettings_ReplacementColumnLabel">替换</sys:String>
+    <sys:String x:Key="ServerSettings_ReplacementColumnLabel">替換</sys:String>
     <sys:String x:Key="ServerSettings_SpawnWeightColumnLabel">恐龍刷新频率</sys:String>
     <sys:String x:Key="ServerSettings_OverrideLimitColumnLabel">移除恐龍倍數限制</sys:String>
     <sys:String x:Key="ServerSettings_SpawnLimitColumnLabel">恐龍倍數限制</sys:String>
@@ -1604,9 +1604,9 @@
     <sys:String x:Key="ServerSettings_Harvest_HarvestRemoveRecordLabel">點擊“是”確認要删除資源記錄。</sys:String>
 
     <sys:String x:Key="ServerSettings_BaseTemperatureMultiplierLabel">基礎温度：</sys:String>
-    <sys:String x:Key="ServerSettings_BaseTemperatureMultiplierTooltip">指定地圖基礎温度的倍數。 较低的值會降低基準温度（使其变得更冷）; 较高的值會增加基礎温度（使其更热）。</sys:String>
+    <sys:String x:Key="ServerSettings_BaseTemperatureMultiplierTooltip">指定地圖基礎温度的倍數。 较低的值會降低基準温度（使其變得更冷）; 较高的值會增加基礎温度（使其更热）。</sys:String>
     <sys:String x:Key="ServerSettings_DayCycleSpeedLabel">每天循環速度：</sys:String>
-    <sys:String x:Key="ServerSettings_DayCycleSpeedTooltip">指方舟中時間流逝的比例，控制白天更改為夜晚的频率以及夜間更改為白天的频率。 默認值1與單人游戲體驗（和官方公共伺服器）相同的循環速度。 小于1的值會使周期变慢； 较高的值會加速它。 值為1時大约等于28分鐘的现實時間。 因此，對于游戲中大约24小時的昼/夜循環，請使用.035作為值。</sys:String>
+    <sys:String x:Key="ServerSettings_DayCycleSpeedTooltip">指方舟中時間流逝的比例，控制白天更改為夜晚的频率以及夜間更改為白天的频率。 默認值1與單人游戲體驗（和官方公共伺服器）相同的循環速度。 小于1的值會使周期變慢； 较高的值會加速它。 值為1時大约等于28分鐘的现實時間。 因此，對于游戲中大约24小時的昼/夜循環，請使用.035作為值。</sys:String>
     <sys:String x:Key="ServerSettings_DayTimeSpeedLabel">白天速度：</sys:String>
     <sys:String x:Key="ServerSettings_DayTimeSpeedTooltip">指定白天方舟中時間流逝的比例。該值確定相對于每天晚上的長度的每天的長度。降低此值會增加每天的時間長度。</sys:String>
     <sys:String x:Key="ServerSettings_NightTimeSpeedLabel">夜間速度：</sys:String>
@@ -1614,9 +1614,9 @@
     <sys:String x:Key="ServerSettings_DisableWeatherFogLabel">停用天气 - 雾</sys:String>
     <sys:String x:Key="ServerSettings_DisableWeatherFogTooltip">如果啟用，將禁用雾。</sys:String>
     <sys:String x:Key="ServerSettings_GlobalSpoilingTimeLabel">世界破坏時間:</sys:String>
-    <sys:String x:Key="ServerSettings_GlobalSpoilingTimeTooltip">在世界範圍内衡量易腐食品的变質時間。较高的值會延長時間。</sys:String>
-    <sys:String x:Key="ServerSettings_ClampItemSpoilingTimesLabel">疊加物品变質時間</sys:String>
-    <sys:String x:Key="ServerSettings_ClampItemSpoilingTimesTooltip">如果啟用，則將所有变質時間限制為物品的最大变質時間。 如果在伺服器上使用了任何無限漏洞利用程式，並且您希望清理它們，則很有用。 部分Mod可能會導致改变物品变質時間出现问题。</sys:String>
+    <sys:String x:Key="ServerSettings_GlobalSpoilingTimeTooltip">在世界範圍内衡量易腐食品的變質時間。较高的值會延長時間。</sys:String>
+    <sys:String x:Key="ServerSettings_ClampItemSpoilingTimesLabel">疊加物品變質時間</sys:String>
+    <sys:String x:Key="ServerSettings_ClampItemSpoilingTimesTooltip">如果啟用，則將所有變質時間限制為物品的最大變質時間。 如果在伺服器上使用了任何無限漏洞利用程式，並且您希望清理它們，則很有用。 部分Mod可能會導致改變物品變質時間出现问题。</sys:String>
     <sys:String x:Key="ServerSettings_GlobalItemDecompTimeLabel">世界項目分解時間:</sys:String>
     <sys:String x:Key="ServerSettings_GlobalItemDecompTimeTooltip">在世界範圍内调整掉落物品、物品袋等的分解時間。较高的值會延長時間。</sys:String>
     <sys:String x:Key="ServerSettings_GlobalCorpseDecompTimeLabel">世界屍體分解時間：</sys:String>
@@ -1633,7 +1633,7 @@
     <sys:String x:Key="ServerSettings_HairGrowthSpeedMultiplierTooltip">指定毛發生長速度的比例参數。较高的值增長速度,较低的值降低速度。</sys:String>
 
     <sys:String x:Key="ServerSettings_EarnedXPMultipliersLabel">獲得經驗倍數</sys:String>
-    <sys:String x:Key="ServerSettings_EarnedXPMultipliers_GenericLabel">通用（随時間变化）</sys:String>
+    <sys:String x:Key="ServerSettings_EarnedXPMultipliers_GenericLabel">通用（随時間變化）</sys:String>
     <sys:String x:Key="ServerSettings_EarnedXPMultipliers_GenericTooltip">指定随着時間增加經驗的参數。 值越高，經驗增加越高。</sys:String>
     <sys:String x:Key="ServerSettings_EarnedXPMultipliers_CraftingLabel">制作</sys:String>
     <sys:String x:Key="ServerSettings_EarnedXPMultipliers_CraftingTooltip">指定制作時獲得經驗的参數。 值越高，經驗增加越高。</sys:String>
@@ -1645,7 +1645,7 @@
     <sys:String x:Key="ServerSettings_EarnedXPMultipliers_SpecialTooltip">指定特殊事件獲得經驗的参數。 值越高，經驗增加越高。</sys:String>
 
     <sys:String x:Key="ServerSettings_CustomHarvest_ResetTitle">確認回復動作</sys:String>
-    <sys:String x:Key="ServerSettings_CustomHarvest_ResetLabel">點擊“是”以確認要重置所有目前資源收獲量倍數的变化.</sys:String>
+    <sys:String x:Key="ServerSettings_CustomHarvest_ResetLabel">點擊“是”以確認要重置所有目前資源收獲量倍數的變化.</sys:String>
     <!--#endregion-->
 
     <!-- 伺服器設置 - 建築 -->
@@ -1685,7 +1685,7 @@
     <sys:String x:Key="ServerSettings_EnableAutoDestroyStructuresLabel">自動销毁建築</sys:String>
     <sys:String x:Key="ServerSettings_EnableAutoDestroyStructuresTooltip">如果啟用，將在建築過期倒計時结束後自動销毁建築。</sys:String>
     <sys:String x:Key="ServerSettings_AutoDestroyOldStructuresLabel">自動销毁舊结構倍數：</sys:String>
-    <sys:String x:Key="ServerSettings_AutoDestroyOldStructuresTooltip">經過一段時間“附近没有部落”之後，便可以進行自動破坏结構。 這對伺服器随着時間的推移自動清除废弃的建築很有用。 設置為0以禁用它。</sys:String>
+    <sys:String x:Key="ServerSettings_AutoDestroyOldStructuresTooltip">經過一段時間“附近没有部落”之後，便可以進行自動破坏结構。 這對伺服器随着時間的推移自動清除废氣的建築很有用。 設置為0以禁用它。</sys:String>
     <sys:String x:Key="ServerSettings_OnlyAutoDestroyCoreStructuresLabel">只自動销毁核心建築</sys:String>
     <sys:String x:Key="ServerSettings_OnlyAutoDestroyCoreStructuresTooltip">如果啟用，將阻止任何非核心/非地基建築自動销毁（如果這些建築位于地基上，地基建築自動销毁，它們仍然會自動销毁）。</sys:String>
     <sys:String x:Key="ServerSettings_OnlyDecayUnsnappedCoreStructuresLabel">只過期未被绑定的核心建築</sys:String>
@@ -1709,7 +1709,7 @@
     <sys:String x:Key="ServerSettings_LimitTurretsNumLabel">限制數量</sys:String>
     <sys:String x:Key="ServerSettings_LimitTurretsNumTooltip">設置可以放置在極限範圍内的最大炮塔數量。</sys:String>
     <sys:String x:Key="ServerSettings_HardLimitTurretsInRangeLabel">硬限制炮塔在範圍内</sys:String>
-    <sys:String x:Key="ServerSettings_HardLimitTurretsInRangeTooltip">如果啟用，將執行追溯炮塔硬限制。 這將適用于自動炮塔，重型炮塔，tek炮塔，植物炮塔，並且不再针對特定地圖。 硬極限計算是在啟動時完成的，因此，如果您的炮塔超出極限，它們將被随機關閉，直到您低于極限為止。 為了恢復關閉的炮塔，您必須捡起數量超過限制的炮塔以及關閉的炮塔，然後進行更换才能正常工作。</sys:String>
+    <sys:String x:Key="ServerSettings_HardLimitTurretsInRangeTooltip">如果啟用，將執行追溯炮塔硬限制。 這將適用于自動炮塔，重型炮塔，tek炮塔，植物炮塔，並且不再针對特定地圖。 硬極限計算是在啟動時完成的，因此，如果您的炮塔超出極限，它們將被随機關閉，直到您低于極限為止。 為了恢復關閉的炮塔，您必須捡起數量超過限制的炮塔以及關閉的炮塔，然後進行更換才能正常工作。</sys:String>
     <sys:String x:Key="ServerSettings_StructurePickupLabel">建築撿起</sys:String>
     <sys:String x:Key="ServerSettings_AlwaysAllowStructurePickupLabel">始终允許建築撿起</sys:String>
     <sys:String x:Key="ServerSettings_AlwaysAllowStructurePickupTooltip">如果啟用，將在快速撿起建築系统上禁用計時器。</sys:String>
@@ -1766,7 +1766,7 @@
     <sys:String x:Key="ServerSettings_EngramsOverride_EngramsRemoveRecordLabel">點擊“是”以確認要删除資源記錄.</sys:String>
 
     <sys:String x:Key="ServerSettings_EngramsOverride_ResetTitle">確認重置操作</sys:String>
-    <sys:String x:Key="ServerSettings_EngramsOverride_ResetLabel">點擊“是”以確認您要重置目前所有技能印痕的变化.</sys:String>
+    <sys:String x:Key="ServerSettings_EngramsOverride_ResetLabel">點擊“是”以確認您要重置目前所有技能印痕的變化.</sys:String>
     <sys:String x:Key="ServerSettings_EngramsOverride_SelectAllConfirmTitle">確認選取所有操作</sys:String>
     <sys:String x:Key="ServerSettings_EngramsOverride_SelectAllConfirmLabel">點擊“是”確認要選取所有的技能痕迹。</sys:String>
     <sys:String x:Key="ServerSettings_EngramsOverride_UnselectAllConfirmTitle">確認取消選取所有操作</sys:String>
@@ -1888,7 +1888,7 @@
     <sys:String x:Key="ServerSettings_SOTFLabel">適者生存模式設置</sys:String>
     <sys:String x:Key="ServerSettings_EnableSOTFLabel">開啟適者生存模式</sys:String>
     <sys:String x:Key="ServerSettings_EnableSOTFTooltip">如果啟用，配置伺服器會作為“大逃殺”的伺服器.</sys:String>
-    <sys:String x:Key="ServerSettings_SOTFHelpTooltip">適者生存是一种特殊的總转换模式，它改变了許多规則。</sys:String>
+    <sys:String x:Key="ServerSettings_SOTFHelpTooltip">適者生存是一种特殊的總轉換模式，它改變了許多规則。</sys:String>
     <sys:String x:Key="ServerSettings_DisableDeathSpectatorLabel">禁用死亡後觀众模式</sys:String>
     <sys:String x:Key="ServerSettings_DisableDeathSpectatorTooltip">如果啟用，玩家不能在他們死後使用觀众模式.</sys:String>
     <sys:String x:Key="ServerSettings_OnlyAdminRejoinSpectatorLabel">只有管理員加入作為旁觀者</sys:String>
@@ -1917,13 +1917,13 @@
     <sys:String x:Key="ServerSettings_SOTFBothBossesLabel">两個Boss</sys:String>
     <sys:String x:Key="ServerSettings_SOTFBothBossesTooltip">如果啟用,這將刷新育母蜘蛛和大金刚在各自區域。</sys:String>
     <sys:String x:Key="ServerSettings_SOTFEvoEventIntervalLabel">進化事件間隔</sys:String>
-    <sys:String x:Key="ServerSettings_SOTFEvoEventIntervalTooltip">指定間隔事件的演变,较低值降低事件之間的時間,较高值則增加事件之間的時間.</sys:String>
+    <sys:String x:Key="ServerSettings_SOTFEvoEventIntervalTooltip">指定間隔事件的演變,较低值降低事件之間的時間,较高值則增加事件之間的時間.</sys:String>
     <sys:String x:Key="ServerSettings_SOTFRingStartTimeLabel">每局開始時間</sys:String>
     <sys:String x:Key="ServerSettings_SOTFRingStartTimeTooltip">你可以將其設置為比賽時間（死亡的進度），以一定的時間。 较低值降低比賽的，较高值則增加了比賽的時間。</sys:String>
 
-    <sys:String x:Key="ServerSettings_SOTF_HelpTooltip">適者生存是另一种游戲生存演進，它使用一组不同的伺服器上的文件，並改变許多规則。 請参閱網站了解更多詳情。</sys:String>
-    <sys:String x:Key="ServerSettings_SOTF_HelpTitle">转到SotF網页？</sys:String>
-    <sys:String x:Key="ServerSettings_SOTF_HelpLabel">適者生存是一种替代的游戲，以生存進化，使用不同的伺服器文件，並改变許多规則。见WEB更多的细节.</sys:String>
+    <sys:String x:Key="ServerSettings_SOTF_HelpTooltip">適者生存是另一种游戲生存演進，它使用一组不同的伺服器上的文件，並改變許多规則。 請参閱網站了解更多詳情。</sys:String>
+    <sys:String x:Key="ServerSettings_SOTF_HelpTitle">轉到SotF網页？</sys:String>
+    <sys:String x:Key="ServerSettings_SOTF_HelpLabel">適者生存是一种替代的游戲，以生存進化，使用不同的伺服器文件，並改變許多规則。见WEB更多的细节.</sys:String>
     <!--#endregion-->
 
     <!-- 伺服器設置-程式生成方舟 -->
@@ -1944,7 +1944,7 @@
     <sys:String x:Key="ServerSettings_PGM_YLabel">Y</sys:String>
     <sys:String x:Key="ServerSettings_PGM_ZLabel">Z</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Warning1Label">警告：程式生成的方舟系统是高度實驗性的。 随着動態算法的進一步發展，您保存的過程生成的ARK必然會在随後的更新中被擦除。 我們只建議目前使用這個系统，如果你願意接受經常清除你的程式生成的方舟的保存數據！</sys:String>
-    <sys:String x:Key="ServerSettings_PGM_Warning2Label">注意：啟動伺服器後，更改這些設置將無效。 要創建新設置的ARK，必須改变方舟存檔文件名，或者删除现有的方舟存檔文件。 在這两种情况下，您將丢失所有進度。</sys:String>
+    <sys:String x:Key="ServerSettings_PGM_Warning2Label">注意：啟動伺服器後，更改這些設置將無效。 要創建新設置的ARK，必須改變方舟存檔文件名，或者删除现有的方舟存檔文件。 在這两种情况下，您將丢失所有進度。</sys:String>
 
     <sys:String x:Key="ServerSettings_PGM_TerrianSettingsLabel">地形設置</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Terrain_MapSeedLabel">地圖种子</sys:String>
@@ -2201,9 +2201,9 @@
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_MaxQualityColumnLabel">最高品質</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_MaxQualityColumnTooltip">最高品質的物品將進入光柱/補给箱/戰利品 (通常建議保持在1.0).</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_ForceBlueprintColumnLabel">强制蓝圖</sys:String>
-    <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_ForceBlueprintColumnTooltip">如果開啟, 你將會經常生成蓝圖替换物品.</sys:String>
+    <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_ForceBlueprintColumnTooltip">如果開啟, 你將會經常生成蓝圖替換物品.</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_ChanceToBeBlueprintOverrideColumnLabel">蓝圖機率</sys:String>
-    <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_ChanceToBeBlueprintOverrideColumnTooltip">指定機率生成蓝圖替换物品. 强制蓝圖必須被關閉.</sys:String>
+    <sys:String x:Key="ServerSettings_SupplyCrate_ItemSetEntry_ChanceToBeBlueprintOverrideColumnTooltip">指定機率生成蓝圖替換物品. 强制蓝圖必須被關閉.</sys:String>
 
     <sys:String x:Key="ServerSettings_SupplyCrate_Item_ItemClassStringColumnLabel">物品</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_Item_ItemClassStringColumnTooltip">該物品的物品代碼.</sys:String>
@@ -2368,7 +2368,7 @@
     <sys:String x:Key="RCON_CopyIdTitle">ID 複製</sys:String>
     <sys:String x:Key="RCON_CopyPlayerIdLabel">玩家 ID 複製到剪貼板 :</sys:String>
     <sys:String x:Key="RCON_CopyPlayerIdTitle">玩家 ID 複製</sys:String>
-    <sys:String x:Key="RCON_ClipboardErrorLabel">剪貼板無法打開,另一應用程式可以是使用它.請嘗试關閉其他應用程式並再次嘗试.</sys:String>
+    <sys:String x:Key="RCON_ClipboardErrorLabel">剪貼板無法打開,另一應用程式可以是使用它.請嘗試關閉其他應用程式並再次嘗試.</sys:String>
     <sys:String x:Key="RCON_ClipboardErrorTitle">複製到剪貼板失敗.</sys:String>
 
     <sys:String x:Key="RCON_Comments_Line1">在底部的框中输入命令或聊天。</sys:String>
@@ -2406,7 +2406,7 @@
     <sys:String x:Key="RCON_Help_Line24">SetMessageOfTheDay &lt;message&gt; - 設置伺服器的“當天的消息”，當玩家連接到，將顯示给他們，.</sys:String>
     <sys:String x:Key="RCON_Help_Line25">SetTimeOfDay &lt;小時>:&lt;分鐘>[:&lt;秒>] - 設置游戲世界的時間，指定當天的時間.</sys:String>
     <sys:String x:Key="RCON_Help_Line26">ShowMessageOfTheDay - 顯示當天消息.</sys:String>
-    <sys:String x:Key="RCON_Help_Line27">Slomo &lt;factor&gt; - 設置游戲速度倍數。 较低的值會使時間变慢，請改回1以恢復正常。</sys:String>
+    <sys:String x:Key="RCON_Help_Line27">Slomo &lt;factor&gt; - 設置游戲速度倍數。 较低的值會使時間變慢，請改回1以恢復正常。</sys:String>
     <sys:String x:Key="RCON_Help_Line28">UnBanPlayer &lt;steam id&gt; - 從伺服器的禁止列表中删除指定的玩家.</sys:String>
     <sys:String x:Key="RCON_Help_Line29">注意:</sys:String>
     <sys:String x:Key="RCON_Help_Line30">&lt;player&gt; 指定玩家的角色名稱</sys:String>
@@ -2451,7 +2451,7 @@
     <sys:String x:Key="TheCenter">中心岛地圖(The Center)</sys:String>
     <sys:String x:Key="ScorchedEarth_P">焦土地圖(Scorched Earth)</sys:String>
     <sys:String x:Key="Ragnarok">仙境地圖(Ragnarok)</sys:String>
-    <sys:String x:Key="Aberration_P">畸变地圖(Aberration)</sys:String>
+    <sys:String x:Key="Aberration_P">畸變地圖(Aberration)</sys:String>
     <sys:String x:Key="Extinction">灭绝地圖(Extinction)</sys:String>
     <sys:String x:Key="Valguero_P">瓦尔盖罗(Valguero)</sys:String>
     <sys:String x:Key="Genesis">創世纪(Genesis)</sys:String>
@@ -2459,7 +2459,7 @@
     <sys:String x:Key="CrystalIsles">水晶岛(Crystal Isles)</sys:String>
     <!--#endregion-->
 
-    <!--#總转换名稱 -->
+    <!--#總轉換名稱 -->
     <sys:String x:Key="111111111">原始服(Primitive Plus)</sys:String>
     <!--#endregion-->
 
@@ -2600,7 +2600,7 @@
     <sys:String x:Key="Bee_Queen_Character_BP_C">女王蜂</sys:String>
     <sys:String x:Key="Equus_Character_BP_Unicorn_C">独角兽</sys:String>
     <sys:String x:Key="FlyingAnt_Character_BP_C">泰坦巨蚁</sys:String>
-    <sys:String x:Key="Leech_Character_Diseased_C">病变水蛭</sys:String>
+    <sys:String x:Key="Leech_Character_Diseased_C">病變水蛭</sys:String>
     <sys:String x:Key="Mega_Tusoteuthis_Character_BP_C">精英托斯特巨鱿</sys:String>
     <sys:String x:Key="MEgaMegalodon_Character_BP_C">精英巨齿鲨</sys:String>
     <sys:String x:Key="Mosa_Character_BP_Mega_C">精英沧龍</sys:String>
@@ -2705,51 +2705,51 @@
     <sys:String x:Key="Manticore_Character_BP_Hard_Ragnarok_C">狮身蝎尾兽 (仙境传说困难难度)</sys:String>
     <!--#endregion-->
 
-    <!-- 恐龍/生物類名稱 - 畸变 -->
-    <sys:String x:Key="Achatina_Character_BP_Aberrant_C">畸变玛瑙螺</sys:String>
-    <sys:String x:Key="Angler_Character_BP_Aberrant_C">畸变鮟鱇鱼</sys:String>
-    <sys:String x:Key="Ankylo_Character_BP_Aberrant_C">畸变甲龍</sys:String>
-    <sys:String x:Key="Arthro_Character_BP_Aberrant_C">畸变古马陆</sys:String>
-    <sys:String x:Key="Baryonyx_Character_BP_Aberrant_C">畸变重爪龍</sys:String>
-    <sys:String x:Key="BigFoot_Character_BP_Aberrant_C">畸变巨猿</sys:String>
-    <sys:String x:Key="BoaFrill_Character_BP_Aberrant_C">畸变泰坦巨蟒</sys:String>
-    <sys:String x:Key="Carno_Character_BP_Aberrant_C">畸变牛龍</sys:String>
-    <sys:String x:Key="Cnidaria_Character_BP_Aberrant_C">畸变水母</sys:String>
-    <sys:String x:Key="Coel_Character_BP_Aberrant_C">畸变腔棘鱼</sys:String>
-    <sys:String x:Key="Dimetro_Character_BP_Aberrant_C">畸变异齿龍</sys:String>
-    <sys:String x:Key="Dimorph_Character_BP_Aberrant_C">畸变双齿翼龍</sys:String>
-    <sys:String x:Key="Diplocaulus_Character_BP_Aberrant_C">畸变盗首螈</sys:String>
-    <sys:String x:Key="Diplodocus_Character_BP_Aberrant_C">畸变梁龍</sys:String>
-    <sys:String x:Key="Direbear_Character_BP_Aberrant_C">畸变恐熊</sys:String>
-    <sys:String x:Key="Dodo_Character_BP_Aberrant_C">畸变渡渡鸟</sys:String>
-    <sys:String x:Key="Doed_Character_BP_Aberrant_C">畸变星尾兽</sys:String>
-    <sys:String x:Key="Dragonfly_Character_BP_Aberrant_C">畸变巨脉蜻蜓</sys:String>
-    <sys:String x:Key="DungBeetle_Character_BP_Aberrant_C">畸变蜣螂</sys:String>
-    <sys:String x:Key="Eel_Character_BP_Aberrant_C">畸变電鳗</sys:String>
-    <sys:String x:Key="Equus_Character_BP_Aberrant_C">畸变庞马</sys:String>
-    <sys:String x:Key="Iguanodon_Character_BP_Aberrant_C">畸变禽龍</sys:String>
-    <sys:String x:Key="Lystro_Character_BP_Aberrant_C">畸变水龍兽</sys:String>
-    <sys:String x:Key="Manta_Character_BP_Aberrant_C">畸变蝠鲼</sys:String>
-    <sys:String x:Key="Megalania_Character_BP_Aberrant_C">畸变古巨蜥</sys:String>
-    <sys:String x:Key="Megalosaurus_Character_BP_Aberrant_C">畸变斑龍</sys:String>
-    <sys:String x:Key="Moschops_Character_BP_Aberrant_C">畸变麝足兽</sys:String>
-    <sys:String x:Key="Otter_Character_BP_Aberrant_C">畸变水獭</sys:String>
-    <sys:String x:Key="Para_Character_BP_Aberrant_C">畸变副栉龍</sys:String>
-    <sys:String x:Key="Paracer_Character_BP_Aberrant_C">畸变巨犀</sys:String>
-    <sys:String x:Key="Piranha_Character_BP_Aberrant_C">畸变食人鱼</sys:String>
-    <sys:String x:Key="Purlovia_Character_BP_Aberrant_C">畸变兽头兽</sys:String>
-    <sys:String x:Key="Raptor_Character_BP_Aberrant_C">畸变迅猛龍</sys:String>
-    <sys:String x:Key="Salmon_Character_Aberrant_C">畸变剑齿鲑鱼</sys:String>
-    <sys:String x:Key="Sarco_Character_BP_Aberrant_C">畸变帝鳄</sys:String>
-    <sys:String x:Key="Scorpion_Character_BP_Aberrant_C">畸变巨蝎</sys:String>
-    <sys:String x:Key="Sheep_Character_BP_Aberrant_C">畸变绵羊</sys:String>
-    <sys:String x:Key="SpiderS_Character_BP_Aberrant_C">畸变蜘蛛</sys:String>
-    <sys:String x:Key="Spino_Character_BP_Aberrant_C">畸变棘背龍</sys:String>
-    <sys:String x:Key="Stego_Character_BP_Aberrant_C">畸变剑龍</sys:String>
-    <sys:String x:Key="Toad_Character_BP_Aberrant_C">畸变魔鬼蛙</sys:String>
-    <sys:String x:Key="Trike_Character_BP_Aberrant_C">畸变三角龍</sys:String>
-    <sys:String x:Key="Trilobite_Character_Aberrant_C">畸变三葉虫</sys:String>
-    <sys:String x:Key="Turtle_Character_BP_Aberrant_C">畸变淡水炭龟</sys:String>
+    <!-- 恐龍/生物類名稱 - 畸變 -->
+    <sys:String x:Key="Achatina_Character_BP_Aberrant_C">畸變玛瑙螺</sys:String>
+    <sys:String x:Key="Angler_Character_BP_Aberrant_C">畸變鮟鱇鱼</sys:String>
+    <sys:String x:Key="Ankylo_Character_BP_Aberrant_C">畸變甲龍</sys:String>
+    <sys:String x:Key="Arthro_Character_BP_Aberrant_C">畸變古马陆</sys:String>
+    <sys:String x:Key="Baryonyx_Character_BP_Aberrant_C">畸變重爪龍</sys:String>
+    <sys:String x:Key="BigFoot_Character_BP_Aberrant_C">畸變巨猿</sys:String>
+    <sys:String x:Key="BoaFrill_Character_BP_Aberrant_C">畸變泰坦巨蟒</sys:String>
+    <sys:String x:Key="Carno_Character_BP_Aberrant_C">畸變牛龍</sys:String>
+    <sys:String x:Key="Cnidaria_Character_BP_Aberrant_C">畸變水母</sys:String>
+    <sys:String x:Key="Coel_Character_BP_Aberrant_C">畸變腔棘鱼</sys:String>
+    <sys:String x:Key="Dimetro_Character_BP_Aberrant_C">畸變异齿龍</sys:String>
+    <sys:String x:Key="Dimorph_Character_BP_Aberrant_C">畸變双齿翼龍</sys:String>
+    <sys:String x:Key="Diplocaulus_Character_BP_Aberrant_C">畸變盗首螈</sys:String>
+    <sys:String x:Key="Diplodocus_Character_BP_Aberrant_C">畸變梁龍</sys:String>
+    <sys:String x:Key="Direbear_Character_BP_Aberrant_C">畸變恐熊</sys:String>
+    <sys:String x:Key="Dodo_Character_BP_Aberrant_C">畸變渡渡鸟</sys:String>
+    <sys:String x:Key="Doed_Character_BP_Aberrant_C">畸變星尾兽</sys:String>
+    <sys:String x:Key="Dragonfly_Character_BP_Aberrant_C">畸變巨脉蜻蜓</sys:String>
+    <sys:String x:Key="DungBeetle_Character_BP_Aberrant_C">畸變蜣螂</sys:String>
+    <sys:String x:Key="Eel_Character_BP_Aberrant_C">畸變電鳗</sys:String>
+    <sys:String x:Key="Equus_Character_BP_Aberrant_C">畸變庞马</sys:String>
+    <sys:String x:Key="Iguanodon_Character_BP_Aberrant_C">畸變禽龍</sys:String>
+    <sys:String x:Key="Lystro_Character_BP_Aberrant_C">畸變水龍兽</sys:String>
+    <sys:String x:Key="Manta_Character_BP_Aberrant_C">畸變蝠鲼</sys:String>
+    <sys:String x:Key="Megalania_Character_BP_Aberrant_C">畸變古巨蜥</sys:String>
+    <sys:String x:Key="Megalosaurus_Character_BP_Aberrant_C">畸變斑龍</sys:String>
+    <sys:String x:Key="Moschops_Character_BP_Aberrant_C">畸變麝足兽</sys:String>
+    <sys:String x:Key="Otter_Character_BP_Aberrant_C">畸變水獭</sys:String>
+    <sys:String x:Key="Para_Character_BP_Aberrant_C">畸變副栉龍</sys:String>
+    <sys:String x:Key="Paracer_Character_BP_Aberrant_C">畸變巨犀</sys:String>
+    <sys:String x:Key="Piranha_Character_BP_Aberrant_C">畸變食人鱼</sys:String>
+    <sys:String x:Key="Purlovia_Character_BP_Aberrant_C">畸變兽头兽</sys:String>
+    <sys:String x:Key="Raptor_Character_BP_Aberrant_C">畸變迅猛龍</sys:String>
+    <sys:String x:Key="Salmon_Character_Aberrant_C">畸變剑齿鲑鱼</sys:String>
+    <sys:String x:Key="Sarco_Character_BP_Aberrant_C">畸變帝鳄</sys:String>
+    <sys:String x:Key="Scorpion_Character_BP_Aberrant_C">畸變巨蝎</sys:String>
+    <sys:String x:Key="Sheep_Character_BP_Aberrant_C">畸變绵羊</sys:String>
+    <sys:String x:Key="SpiderS_Character_BP_Aberrant_C">畸變蜘蛛</sys:String>
+    <sys:String x:Key="Spino_Character_BP_Aberrant_C">畸變棘背龍</sys:String>
+    <sys:String x:Key="Stego_Character_BP_Aberrant_C">畸變剑龍</sys:String>
+    <sys:String x:Key="Toad_Character_BP_Aberrant_C">畸變魔鬼蛙</sys:String>
+    <sys:String x:Key="Trike_Character_BP_Aberrant_C">畸變三角龍</sys:String>
+    <sys:String x:Key="Trilobite_Character_Aberrant_C">畸變三葉虫</sys:String>
+    <sys:String x:Key="Turtle_Character_BP_Aberrant_C">畸變淡水炭龟</sys:String>
 
     <sys:String x:Key="Basilisk_Character_BP_C">毒蜥</sys:String>
     <sys:String x:Key="CaveWolf_Character_BP_C">劫掠者</sys:String>
@@ -2780,7 +2780,7 @@
     <sys:String x:Key="Xenomorph_Character_BP_Male_Tamed_C">死神国王馴服</sys:String>
     <!--#endregion-->
 
-    <!-- 恐龍/生物類名稱 - 畸变 - BOSS -->
+    <!-- 恐龍/生物類名稱 - 畸變 - BOSS -->
     <sys:String x:Key="Rockwell_Character_BP_C">罗克韦尔</sys:String>
     <sys:String x:Key="Rockwell_Character_BP_Easy_C">罗克韦尔 (簡單难度)</sys:String>
     <sys:String x:Key="Rockwell_Character_BP_Medium_C">罗克韦尔 (中等难度)</sys:String>
@@ -3107,7 +3107,7 @@
     <sys:String x:Key="EngramEntry_MetalSlopedWall_Left_C">金属墙左倾斜</sys:String>
     <sys:String x:Key="EngramEntry_MetalSlopedWall_Right_C">金属墙右倾斜</sys:String>
     <sys:String x:Key="EngramEntry_MetalSpikeWall_C">金属拒马</sys:String>
-    <sys:String x:Key="EngramEntry_MetalStairs_C">金属旋转楼梯</sys:String>
+    <sys:String x:Key="EngramEntry_MetalStairs_C">金属旋轉楼梯</sys:String>
     <sys:String x:Key="EngramEntry_MetalTrapdoor_C">金属天窗门</sys:String>
     <sys:String x:Key="EngramEntry_MetalTrapdoorGiant_C">巨型金属天窗门</sys:String>
     <sys:String x:Key="EngramEntry_MetalWall_C">金属墙</sys:String>
@@ -3260,7 +3260,7 @@
     <sys:String x:Key="EngramEntry_StoneRoof_C">石制斜屋顶</sys:String>
     <sys:String x:Key="EngramEntry_StoneSlopedWall_Left_C">石制墙左倾斜</sys:String>
     <sys:String x:Key="EngramEntry_StoneSlopedWall_Right_C">石制墙右倾斜</sys:String>
-    <sys:String x:Key="EngramEntry_StoneStairs_C">石制旋转楼梯</sys:String>
+    <sys:String x:Key="EngramEntry_StoneStairs_C">石制旋轉楼梯</sys:String>
     <sys:String x:Key="EngramEntry_StoneTrapdoor_C">石制天窗门</sys:String>
     <sys:String x:Key="EngramEntry_StoneTrapdoorGiant_C">巨型石制天窗门</sys:String>
     <sys:String x:Key="EngramEntry_StoneWall_C">石制墙</sys:String>
@@ -3326,7 +3326,7 @@
     <sys:String x:Key="EngramEntry_WoodWall_C">木制墙</sys:String>
     <sys:String x:Key="EngramEntry_WoodSlopedWall_Left_C">木制墙左倾斜</sys:String>
     <sys:String x:Key="EngramEntry_WoodSlopedWall_Right_C">木制墙右倾斜</sys:String>
-    <sys:String x:Key="EngramEntry_WoodStairs_C">木制旋转楼梯</sys:String>
+    <sys:String x:Key="EngramEntry_WoodStairs_C">木制旋轉楼梯</sys:String>
     <sys:String x:Key="EngramEntry_WoodRoof_C">木制斜屋顶</sys:String>
     <sys:String x:Key="EngramEntry_WoodWallWithDoor_C">木制门框</sys:String>
     <sys:String x:Key="EngramEntry_WoodWallWithWindow_C">木制窗框</sys:String>
@@ -3568,7 +3568,7 @@
     <sys:String x:Key="EngramEntry_AdobeRoof_C">焦土斜屋顶</sys:String>
     <sys:String x:Key="EngramEntry_AdobeSlopedWall_Left_C">焦土墙斜左</sys:String>
     <sys:String x:Key="EngramEntry_AdobeSlopedWall_Right_C">焦土墙斜右</sys:String>
-    <sys:String x:Key="EngramEntry_AdobeStairs_C">焦土旋转楼梯</sys:String>
+    <sys:String x:Key="EngramEntry_AdobeStairs_C">焦土旋轉楼梯</sys:String>
     <sys:String x:Key="EngramEntry_AdobeTrapdoor_C">焦土天窗</sys:String>
     <sys:String x:Key="EngramEntry_AdobeWall_C">焦土墙</sys:String>
     <sys:String x:Key="EngramEntry_AdobeWallWithDoor_C">焦土门框</sys:String>
@@ -3604,7 +3604,7 @@
     <sys:String x:Key="EngramEntry_WindTurbine_C">風力發電機</sys:String>
     <!--#endregion-->
 
-    <!-- 印痕技能類 - 畸变 -->
+    <!-- 印痕技能類 - 畸變 -->
     <sys:String x:Key="EngramEntry_BasiliskSaddle_C">鞍-毒蜥</sys:String>
     <sys:String x:Key="EngramEntry_ChargeBattery_C">蓄電池</sys:String>
     <sys:String x:Key="EngramEntry_ChargeLantern_C">探照灯枪</sys:String>
@@ -4283,8 +4283,8 @@
     <sys:String x:Key="PrimalItemResource_Wood_C">木头</sys:String>
     <sys:String x:Key="PrimalItemResource_Wool_C">羊毛</sys:String>
     <sys:String x:Key="PrimalItemResourceGeneric_Curing_C">水蛭血液或角</sys:String>
-    <sys:String x:Key="PrimalItemSkin_AberrationHelmet_C">畸变头盔皮肤</sys:String>
-    <sys:String x:Key="PrimalItemSkin_AberrationSword_C">畸变剑皮肤</sys:String>
+    <sys:String x:Key="PrimalItemSkin_AberrationHelmet_C">畸變头盔皮肤</sys:String>
+    <sys:String x:Key="PrimalItemSkin_AberrationSword_C">畸變剑皮肤</sys:String>
     <sys:String x:Key="PrimalItemSkin_BirthdayPants_C">生日礼服裤子皮肤</sys:String>
     <sys:String x:Key="PrimalItemSkin_BirthdayShirt_C">生日礼服上衣皮肤</sys:String>
     <sys:String x:Key="PrimalItemSkin_BoneHelmet_C">霸王龍骨头帽皮肤</sys:String>
@@ -4467,7 +4467,7 @@
     <sys:String x:Key="PrimalItemStructure_StonePipeVertical_C">石制管 - 垂直</sys:String>
     <sys:String x:Key="PrimalItemStructure_StoneRailing_C">石头栅栏</sys:String>
     <sys:String x:Key="PrimalItemStructure_StoneRoof_C">石制倾斜屋顶</sys:String>
-    <sys:String x:Key="PrimalItemStructure_StoneStairs_C">石制旋转楼梯</sys:String>
+    <sys:String x:Key="PrimalItemStructure_StoneStairs_C">石制旋轉楼梯</sys:String>
     <sys:String x:Key="PrimalItemStructure_StoneTrapdoor_C">石制加固天窗</sys:String>
     <sys:String x:Key="PrimalItemStructure_StoneWall_C">石制墙</sys:String>
     <sys:String x:Key="PrimalItemStructure_StoneWall_Sloped_Left_C">石制倾斜墙左</sys:String>
@@ -4498,7 +4498,7 @@
     <sys:String x:Key="PrimalItemStructure_TekReplicator_C">泰克複製器</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekRoof_C">泰克斜屋顶</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekShield_C">泰克力場护盾</sys:String>
-    <sys:String x:Key="PrimalItemStructure_TekStairs_C">泰克旋转楼梯</sys:String>
+    <sys:String x:Key="PrimalItemStructure_TekStairs_C">泰克旋轉楼梯</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekTeleporter_C">泰克传送器</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekTransmitter_C">泰克传送器</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekTrapdoor_C">泰克天窗</sys:String>
@@ -4555,7 +4555,7 @@
     <sys:String x:Key="PrimalItemStructure_WoodSign_Large_C">木制的广告牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodSign_Wall_C">木制标示牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodSpikeWall_C">木制拒马</sys:String>
-    <sys:String x:Key="PrimalItemStructure_WoodStairs_C">木制旋转楼梯</sys:String>
+    <sys:String x:Key="PrimalItemStructure_WoodStairs_C">木制旋轉楼梯</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodTrapdoor_C">木制天窗</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodWall_C">木制墙</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodWall_Sloped_Left_C">木制倾斜墙左</sys:String>
@@ -4649,7 +4649,7 @@
     <sys:String x:Key="PrimalItemStructure_AdobeRailing_C">焦土栏杆</sys:String>
     <sys:String x:Key="PrimalItemStructure_AdobeRamp_C">焦土斜坡</sys:String>
     <sys:String x:Key="PrimalItemStructure_AdobeRoof_C">焦土倾斜屋顶</sys:String>
-    <sys:String x:Key="PrimalItemStructure_AdobeStaircase_C">焦土旋转楼梯</sys:String>
+    <sys:String x:Key="PrimalItemStructure_AdobeStaircase_C">焦土旋轉楼梯</sys:String>
     <sys:String x:Key="PrimalItemStructure_AdobeTrapdoor_C">焦土天窗</sys:String>
     <sys:String x:Key="PrimalItemStructure_AdobeWall_C">焦土墙</sys:String>
     <sys:String x:Key="PrimalItemStructure_AdobeWall_Sloped_Left_C">焦土倾斜墙左</sys:String>
@@ -4942,7 +4942,7 @@
     <sys:String x:Key="PrimalItemStructure_Yurt_C">圆顶帳篷</sys:String>
     <!--#endregion-->
 
-    <!-- 項目類别名稱 - 畸变 -->
+    <!-- 項目類别名稱 - 畸變 -->
     <sys:String x:Key="PrimalItem_ChargeBattery_C">蓄電池</sys:String>
     <sys:String x:Key="PrimalItem_GlowStick_C">荧光棒</sys:String>
     <sys:String x:Key="PrimalItem_PlantSpeciesZ_Grenade_C">Z异种植物果實</sys:String>
@@ -5022,7 +5022,7 @@
     <sys:String x:Key="PrimalItemArmor_MekBackpack_MissilePod_C">機甲火箭模块 (機甲可部署火箭模块)</sys:String>
     <sys:String x:Key="PrimalItemArmor_MekBackpack_Shield_C">機甲护盾模块 (機甲可部署屏障模块)</sys:String>
     <sys:String x:Key="PrimalItemArmor_MekBackpack_SiegeCannon_C">機甲重炮模块 (機甲可部署重炮模块)</sys:String>
-    <sys:String x:Key="PrimalItemArmor_MekTransformer_C">力神转换接口 (機甲可部署力神变形模块)</sys:String>
+    <sys:String x:Key="PrimalItemArmor_MekTransformer_C">力神轉換接口 (機甲可部署力神變形模块)</sys:String>
     <sys:String x:Key="PrimalItemArmor_OwlSaddle_C">雪鸮鞍</sys:String>
     <sys:String x:Key="PrimalItemArmor_SpindlesSaddle_C">刺面龍鞍</sys:String>
     <sys:String x:Key="PrimalItemArtifact_Extinction_DesertKaiju_C">混沌神器</sys:String>
@@ -5116,7 +5116,7 @@
 	<!--#endregion-->
 	
 	<!--#項目類别名稱 - 創世(2)-->
-	<sys:String x:Key="PrimalItemConsumable_Mutagen_C">诱变剂</sys:String>
+	<sys:String x:Key="PrimalItemConsumable_Mutagen_C">诱變剂</sys:String>
 	<sys:String x:Key="PrimalItemStructure_AmmoContainer_C">弹药箱</sys:String>
 	<sys:String x:Key="PrimalItemCanoe_C">独木舟</sys:String>
 	<sys:String x:Key="PrimalItem_WeaponMinigun_C">加特林</sys:String>
@@ -5132,7 +5132,7 @@
 	<sys:String x:Key="PrimalItemAmmo_ArrowNet_C">網枪</sys:String>
 	<sys:String x:Key="PrimalItemAmmo_Boulder_Fire_C">沥青罐</sys:String>
 	<sys:String x:Key="PrimalItem_Spawner_Exosuit_C">Exo-MEK機甲</sys:String>
-	<sys:String x:Key="PrimalItemConsumable_Mutagel_C">突变凝胶</sys:String>
+	<sys:String x:Key="PrimalItemConsumable_Mutagel_C">突變凝胶</sys:String>
 	<sys:String x:Key="PrimalItem_WeaponTekPistol_C">泰克相枪</sys:String>
 	<sys:String x:Key="PrimalItemConsumable_Seed_PlantSpeciesR_RawMeat_C">植物R-1 种子(生肉)</sys:String>
 	<sys:String x:Key="PrimalItemConsumable_Seed_PlantSpeciesR_RawFish_C">植物R-2 种子(鱼肉)</sys:String>
@@ -5428,34 +5428,34 @@
     <sys:String x:Key="ArtifactCrate_2_SE_C">(焦土) 上古神器卫士</sys:String>
     <sys:String x:Key="ArtifactCrate_3_SE_C">(焦土) 上古神器岩壁</sys:String>
 
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level10_C">(畸变) 白色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level10_Double_C">(畸变) 白色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level25_C">(畸变) 绿色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level25_Double_C">(畸变) 绿色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level35_C">(畸变) 蓝色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level35_Double_C">(畸变) 蓝色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level50_C">(畸变) 紫色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level50_Double_C">(畸变) 紫色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level65_C">(畸变) 黄色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level65_Double_C">(畸变) 黄色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level80_C">(畸变) 红色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level80_Double_C">(畸变) 红色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level35_C">(畸变) 地下城戰利品箱 (蓝色)</sys:String>
-    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level50_C">(畸变) 地下城戰利品箱 (紫色)</sys:String>
-    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level65_C">(畸变) 地下城戰利品箱 (黄色)</sys:String>
-    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level80_C">(畸变) 地下城戰利品箱 (红色)</sys:String>
-    <sys:String x:Key="SupplyCrate_Level35_Aberrant_Surface_C">(畸变) 地表蓝色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Level35_Aberrant_Surface_double_C">(畸变) 地表蓝色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Level50_Aberrant_Surface_C">(畸变) 地表紫色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Level50_Aberrant_Surface_Double_C">(畸变) 地表紫色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Level65_Aberrant_Surface_C">(畸变) 地表黄色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Level65_Aberrant_Surface_Double_C">(畸变) 地表黄色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="SupplyCrate_Level80_Aberrant_Surface_C">(畸变) 地表红色戰利品箱</sys:String>
-    <sys:String x:Key="SupplyCrate_Level80_Aberrant_Surface_Double_C">(畸变) 地表红色戰利品箱 (双重物品)</sys:String>
-    <sys:String x:Key="ArtifactCrate_AB_C">(畸变) 神器容器深渊</sys:String>
-    <sys:String x:Key="ArtifactCrate_2_AB_C">(畸变) 神器容器暗影</sys:String>
-    <sys:String x:Key="ArtifactCrate_3_AB_C">(畸变) 神器容器潜行</sys:String>
-    <sys:String x:Key="ArtifactCrate_4_AB_C">(畸变) 神器容器失落</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level10_C">(畸變) 白色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level10_Double_C">(畸變) 白色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level25_C">(畸變) 绿色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level25_Double_C">(畸變) 绿色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level35_C">(畸變) 蓝色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level35_Double_C">(畸變) 蓝色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level50_C">(畸變) 紫色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level50_Double_C">(畸變) 紫色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level65_C">(畸變) 黄色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level65_Double_C">(畸變) 黄色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level80_C">(畸變) 红色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Cave_Aberration_Level80_Double_C">(畸變) 红色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level35_C">(畸變) 地下城戰利品箱 (蓝色)</sys:String>
+    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level50_C">(畸變) 地下城戰利品箱 (紫色)</sys:String>
+    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level65_C">(畸變) 地下城戰利品箱 (黄色)</sys:String>
+    <sys:String x:Key="SupplyCrate_Dungeon_Aberration_Level80_C">(畸變) 地下城戰利品箱 (红色)</sys:String>
+    <sys:String x:Key="SupplyCrate_Level35_Aberrant_Surface_C">(畸變) 地表蓝色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Level35_Aberrant_Surface_double_C">(畸變) 地表蓝色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Level50_Aberrant_Surface_C">(畸變) 地表紫色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Level50_Aberrant_Surface_Double_C">(畸變) 地表紫色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Level65_Aberrant_Surface_C">(畸變) 地表黄色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Level65_Aberrant_Surface_Double_C">(畸變) 地表黄色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="SupplyCrate_Level80_Aberrant_Surface_C">(畸變) 地表红色戰利品箱</sys:String>
+    <sys:String x:Key="SupplyCrate_Level80_Aberrant_Surface_Double_C">(畸變) 地表红色戰利品箱 (双重物品)</sys:String>
+    <sys:String x:Key="ArtifactCrate_AB_C">(畸變) 神器容器深渊</sys:String>
+    <sys:String x:Key="ArtifactCrate_2_AB_C">(畸變) 神器容器暗影</sys:String>
+    <sys:String x:Key="ArtifactCrate_3_AB_C">(畸變) 神器容器潜行</sys:String>
+    <sys:String x:Key="ArtifactCrate_4_AB_C">(畸變) 神器容器失落</sys:String>
 
 	<sys:String x:Key="PrimalInventoryBP_BaseMeatFishing_C">釣鱼的鱼肉</sys:String>
 	<sys:String x:Key="PrimalInventoryBP_BaseMeatFishingNet_C">渔網獎勵</sys:String>
@@ -5571,15 +5571,15 @@
     <sys:String x:Key="ProfileValidation_MapModOutdated">地圖MOD已過期。</sys:String>
     <sys:String x:Key="ProfileValidation_MapModSteamError">無法從Steam檢索地圖MOD詳细信息。</sys:String>
 
-    <sys:String x:Key="ProfileValidation_TCModNotDownloaded">總转换MOD尚未下载，MOD文件夾不存在。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModFileNotDownloaded">總转换MOD未正確下载，MOD文件不存在。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModInvalid">總转换MOD是不是一個有效的總转换MOD。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModFileInvalid">總转换MOD未正確下载，MOD文件無效。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModNameInvalid">總转换MOD文件不存在或無效。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModNameMismatch">地圖名稱與總转换MOD的地圖名稱不匹配。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModDifferentApplication">總转换MOD用于其他應用程式。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModOutdated">總转换MOD已過期。</sys:String>
-    <sys:String x:Key="ProfileValidation_TCModSteamError">無法從Steam檢索總转换MOD詳细信息。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModNotDownloaded">總轉換MOD尚未下载，MOD文件夾不存在。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModFileNotDownloaded">總轉換MOD未正確下载，MOD文件不存在。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModInvalid">總轉換MOD是不是一個有效的總轉換MOD。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModFileInvalid">總轉換MOD未正確下载，MOD文件無效。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModNameInvalid">總轉換MOD文件不存在或無效。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModNameMismatch">地圖名稱與總轉換MOD的地圖名稱不匹配。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModDifferentApplication">總轉換MOD用于其他應用程式。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModOutdated">總轉換MOD已過期。</sys:String>
+    <sys:String x:Key="ProfileValidation_TCModSteamError">無法從Steam檢索總轉換MOD詳细信息。</sys:String>
 
     <sys:String x:Key="ProfileValidation_ModNotDownloaded">MOD {modId} 尚未下载，MOD文件夾不存在。</sys:String>
     <sys:String x:Key="ProfileValidation_ModFileNotDownloaded">MOD {modId} 未正確下载，MOD文件不存在。</sys:String>
@@ -5631,7 +5631,7 @@
     <sys:String x:Key="EngramEntry_BedPlus_C">S +床</sys:String>
     <sys:String x:Key="EngramEntry_BeeHivePlus_C">S +蜂巢</sys:String>
     <sys:String x:Key="EngramEntry_BeerBarrelPlus_C">S +啤酒桶</sys:String>
-    <sys:String x:Key="EngramEntry_BlueprintMaker_C">S +物品转换蓝圖桌</sys:String>
+    <sys:String x:Key="EngramEntry_BlueprintMaker_C">S +物品轉換蓝圖桌</sys:String>
     <sys:String x:Key="EngramEntry_BookshelfPlus_C">S +金属书架</sys:String>
     <sys:String x:Key="EngramEntry_BunkBedPlus_C">S +双层床</sys:String>
     <sys:String x:Key="EngramEntry_CampfirePlus_C">S +篝火</sys:String>
@@ -5656,7 +5656,7 @@
     <sys:String x:Key="EngramEntry_CloningChamberPlus_C">S +克隆機</sys:String>
     <sys:String x:Key="EngramEntry_CommandTool_C">S +恐龍指挥枪</sys:String>
     <sys:String x:Key="EngramEntry_CompostBinPlus_C">S +肥料箱</sys:String>
-    <sys:String x:Key="EngramEntry_Converter_C">S +转换桌</sys:String>
+    <sys:String x:Key="EngramEntry_Converter_C">S +轉換桌</sys:String>
     <sys:String x:Key="EngramEntry_CookingPotPlus_C">S +烹饪锅</sys:String>
     <sys:String x:Key="EngramEntry_CropPlotPlus_Large_C">S +大型耕地</sys:String>
     <sys:String x:Key="EngramEntry_CropPlotPlus_Medium_C">S +中型耕地</sys:String>
@@ -5665,7 +5665,7 @@
     <sys:String x:Key="EngramEntry_CropPlotPlus_Small_C">S+小型耕地</sys:String>
     <sys:String x:Key="EngramEntry_CrystalCracker_C">S+ 嘎查水晶開啟器</sys:String>
     <sys:String x:Key="EngramEntry_DedicatedStorageSP_C">S +單物品储存箱</sys:String>
-    <sys:String x:Key="EngramEntry_DedicatedStorage_Intake_C">S +單物品储存转移柱</sys:String>
+    <sys:String x:Key="EngramEntry_DedicatedStorage_Intake_C">S +單物品储存轉移柱</sys:String>
     <sys:String x:Key="EngramEntry_DemoGun_C">S +建築捡/拆枪</sys:String>
     <sys:String x:Key="EngramEntry_Door_Adobe_C">S +黏土门</sys:String>
     <sys:String x:Key="EngramEntry_Door_Glass_C">S +玻璃门</sys:String>
@@ -5706,7 +5706,7 @@
     <sys:String x:Key="EngramEntry_DynamicPillar_Tek_C">S +泰克動態柱子</sys:String>
     <sys:String x:Key="EngramEntry_DynamicPillar_Wood_C">S +木头動態柱子</sys:String>
     <sys:String x:Key="EngramEntry_ElectricalOutlet_C">S +電源插座</sys:String>
-    <sys:String x:Key="EngramEntry_ElementCatalyzer_C">S +畸变能量元素催化站</sys:String>
+    <sys:String x:Key="EngramEntry_ElementCatalyzer_C">S +畸變能量元素催化站</sys:String>
     <sys:String x:Key="EngramEntry_ElevatorCallButton_C">S +電梯遥控開關</sys:String>
     <sys:String x:Key="EngramEntry_ElevatorPlatform_Large_C">S +大型電梯</sys:String>
     <sys:String x:Key="EngramEntry_ElevatorPlatform_Medium_C">S +中型電梯</sys:String>
@@ -5755,7 +5755,7 @@
     <sys:String x:Key="EngramEntry_Gateway_Wood_C">S +木头恐龍门框</sys:String>
     <sys:String x:Key="EngramEntry_Generator_C">S +發電機</sys:String>
     <sys:String x:Key="EngramEntry_GeneratorTek_C">S + 泰克發電機</sys:String>
-    <sys:String x:Key="EngramEntry_GenomicsChamber_C">S +变异器</sys:String>
+    <sys:String x:Key="EngramEntry_GenomicsChamber_C">S +變异器</sys:String>
     <sys:String x:Key="EngramEntry_GrinderPlus_C">S +工业研磨機</sys:String>
     <sys:String x:Key="EngramEntry_Hatchery_C">S +孵化器</sys:String>
     <sys:String x:Key="EngramEntry_Hatchframe_Adobe_C">S +黏土天窗框</sys:String>
@@ -5901,12 +5901,12 @@
     <sys:String x:Key="EngramEntry_SPlusCraftingStation_C">S +圆桌工作台</sys:String>
     <sys:String x:Key="EngramEntry_SPlusTekLight_C">S +泰克灯</sys:String>
     <sys:String x:Key="EngramEntry_SprayPainterPlus_C">S +喷枪</sys:String>
-    <sys:String x:Key="EngramEntry_Staircase_Adobe_C">S +旋转黏土梯子</sys:String>
-    <sys:String x:Key="EngramEntry_Staircase_Glass_C">S +旋转玻璃梯子</sys:String>
-    <sys:String x:Key="EngramEntry_Staircase_Metal_C">S +旋转金属梯子</sys:String>
-    <sys:String x:Key="EngramEntry_Staircase_Stone_C">S +旋转石头梯子</sys:String>
-    <sys:String x:Key="EngramEntry_Staircase_Tek_C">S +旋转泰克梯子</sys:String>
-    <sys:String x:Key="EngramEntry_Staircase_Wood_C">S +旋转木头梯子</sys:String>
+    <sys:String x:Key="EngramEntry_Staircase_Adobe_C">S +旋轉黏土梯子</sys:String>
+    <sys:String x:Key="EngramEntry_Staircase_Glass_C">S +旋轉玻璃梯子</sys:String>
+    <sys:String x:Key="EngramEntry_Staircase_Metal_C">S +旋轉金属梯子</sys:String>
+    <sys:String x:Key="EngramEntry_Staircase_Stone_C">S +旋轉石头梯子</sys:String>
+    <sys:String x:Key="EngramEntry_Staircase_Tek_C">S +旋轉泰克梯子</sys:String>
+    <sys:String x:Key="EngramEntry_Staircase_Wood_C">S +旋轉木头梯子</sys:String>
     <sys:String x:Key="EngramEntry_StandingTorchPlus_C">S +立式火把</sys:String>
     <sys:String x:Key="EngramEntry_StorageLarge_C">S +大型木制储物箱</sys:String>
     <sys:String x:Key="EngramEntry_StorageMetal_C">S +小型金属保险箱</sys:String>
@@ -5925,8 +5925,8 @@
     <sys:String x:Key="EngramEntry_TekStove_C">S +泰克烤箱</sys:String>
     <sys:String x:Key="EngramEntry_TekTroughPlus_C">S +泰克饲料槽</sys:String>
     <sys:String x:Key="EngramEntry_TeleporterPlus_C">S +泰克传送盘</sys:String>
-    <sys:String x:Key="EngramEntry_TransferGun_C">S +物品转移枪</sys:String>
-    <sys:String x:Key="EngramEntry_TransferTool_C">S +物資转移分配遥控器</sys:String>
+    <sys:String x:Key="EngramEntry_TransferGun_C">S +物品轉移枪</sys:String>
+    <sys:String x:Key="EngramEntry_TransferTool_C">S +物資轉移分配遥控器</sys:String>
     <sys:String x:Key="EngramEntry_TransmitterPlus_C">S +泰克传送器</sys:String>
     <sys:String x:Key="EngramEntry_TransparencyCycler_C">S +透明度调整枪</sys:String>
     <sys:String x:Key="EngramEntry_Trapdoor_Adobe_C">S +黏土天窗门</sys:String>
@@ -6025,7 +6025,7 @@
     <!--#印痕技能類 - EZ技能解锁 -->
     <sys:String x:Key="EngramEntry_EZAce_Unlock_Vanilla_C">解锁原始技能</sys:String>
     <sys:String x:Key="EngramEntry_EZAce_Unlock_Scorched_C">解锁焦土技能</sys:String>
-    <sys:String x:Key="EngramEntry_EZAce_Unlock_Aberration_C">解锁畸变技能</sys:String>
+    <sys:String x:Key="EngramEntry_EZAce_Unlock_Aberration_C">解锁畸變技能</sys:String>
     <sys:String x:Key="EngramEntry_EZAce_Unlock_Extinction_C">解锁灭绝技能</sys:String>
     <sys:String x:Key="EngramEntry_EZAce_Unlock_Achievements_C">解锁所有成就</sys:String>
     <sys:String x:Key="EngramEntry_EZAce_Unlock_Tek_C">解锁泰克技能</sys:String>
@@ -6105,14 +6105,14 @@
     <sys:String x:Key="PrimalItemStructure_SheepHerder_C">S +牧羊人（剪羊毛的假人）</sys:String>
     <sys:String x:Key="PrimalItemStructure_Farmer_C">S +民工（負责肥料收集分配）</sys:String>
     <sys:String x:Key="PrimalItemStructure_Hatchery_C">S +孵化器（像鸟巢）</sys:String>
-    <sys:String x:Key="PrimalItemStructure_BlueprintMaker_C">S +物品转换蓝圖桌</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Converter_C">S +转换桌（物品和蓝圖转换為S+）</sys:String>
+    <sys:String x:Key="PrimalItemStructure_BlueprintMaker_C">S +物品轉換蓝圖桌</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Converter_C">S +轉換桌（物品和蓝圖轉換為S+）</sys:String>
     <sys:String x:Key="PrimalItemStructure_AnimalTender_C">S +兔子恐龍產物收集器</sys:String>
     <sys:String x:Key="PrimalItemStructure_HitchingPost_C">S +拴龍桩</sys:String>
     <sys:String x:Key="PrimalItemStructure_Nanny_C">S +保姆（喂食幼龍和留痕）</sys:String>
     <sys:String x:Key="PrimalItemStructure_ElevatorCallButton_C">S +電梯遥控開關</sys:String>
     <sys:String x:Key="PrimalItemStructure_ChargeInjector_C">S +電荷注入器（样子像飛機限制無名怪）</sys:String>
-    <sys:String x:Key="PrimalItemStructure_ElementCatalyzer_C">S +畸变能量元素催化站</sys:String>
+    <sys:String x:Key="PrimalItemStructure_ElementCatalyzer_C">S +畸變能量元素催化站</sys:String>
     <sys:String x:Key="PrimalItemStructure_Vivarium_C">S +生態饲養器（储存恐龍而且能交配）</sys:String>
     <sys:String x:Key="PrimalItemStructure_AutoCrafter_C">S +泰克自動站</sys:String>
     <sys:String x:Key="PrimalItemStructure_Mannequin_C">S +训练假人</sys:String>
@@ -6124,7 +6124,7 @@
     <sys:String x:Key="PrimalItemStructure_HitchingPost_Tek_C">S +泰克拴龍桩</sys:String>	
     <sys:String x:Key="PrimalItemStructure_GachaGavager_C">S +嘎查喂食盘（收集水晶提高心情）</sys:String>
     <sys:String x:Key="PrimalItemStructure_CrystalCracker_C">S+ 嘎查水晶開啟器</sys:String>	
-    <sys:String x:Key="PrimalItemStructure_GenomicsChamber_C">S +变异器</sys:String>
+    <sys:String x:Key="PrimalItemStructure_GenomicsChamber_C">S +變异器</sys:String>
     <sys:String x:Key="PrimalItemStructure_AutoTurret_C">S +自動炮塔</sys:String>
     <sys:String x:Key="PrimalItemStructure_AutoTurretTek_C">S +泰克炮塔</sys:String>
     <sys:String x:Key="PrimalItemConsumable_AutoTurretPlant_Seed_C">S+ X植物X种子</sys:String>
@@ -6141,14 +6141,14 @@
     <sys:String x:Key="PrimalItem_DemoGun_C">S +建築捡/拆枪</sys:String>
     <sys:String x:Key="PrimalItem_RepairGun_C">S +建築修復枪</sys:String>
     <sys:String x:Key="PrimalItem_TurretConfigurator_C">S +自動炮塔调整枪</sys:String>
-    <sys:String x:Key="PrimalItem_TransferGun_C">S +物品转移枪</sys:String>
+    <sys:String x:Key="PrimalItem_TransferGun_C">S +物品轉移枪</sys:String>
     <sys:String x:Key="PrimalItem_LightSetter_C">S +電灯開關枪</sys:String>
     <sys:String x:Key="PrimalItem_PersonalTeleporter_C">S +传送盘遥控器</sys:String>
     <sys:String x:Key="PrimalItem_VisibilityTool_C">S +结構隱藏调整枪</sys:String>
     <sys:String x:Key="PrimalItem_EuthanasiaGun_C">S +屠龍枪（仅馴服的龍有效）</sys:String>
     <sys:String x:Key="PrimalItem_UnderwaterTool_C">S +水下建築调整枪</sys:String>
     <sys:String x:Key="PrimalItem_PlusRemote_C">S +遠程開门枪</sys:String>
-    <sys:String x:Key="PrimalItem_TransferTool_C">S+ 物資转移分配遥控器</sys:String>
+    <sys:String x:Key="PrimalItem_TransferTool_C">S+ 物資轉移分配遥控器</sys:String>
     <sys:String x:Key="PrimalItem_CommandTool_C">S +恐龍指挥枪</sys:String>
     <sys:String x:Key="PrimalItem_SprayPainterPlus_C">S +喷枪</sys:String>
     <sys:String x:Key="PrimalItem_InventoryAssistant_C">S +物資整理遥控器</sys:String>
@@ -6160,7 +6160,7 @@
     <sys:String x:Key="PrimalItemStructure_VesselPlus_C">S +陶土罐</sys:String>
     <sys:String x:Key="PrimalItemStructure_BookshelfPlus_C">S +金属书架</sys:String>
     <sys:String x:Key="PrimalItemStructure_DedicatedStorageSP_C">S +單物品储存箱</sys:String>
-    <sys:String x:Key="PrimalItemStructure_DedicatedStorage_Intake_C">S +單物品储存转移柱</sys:String>
+    <sys:String x:Key="PrimalItemStructure_DedicatedStorage_Intake_C">S +單物品储存轉移柱</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekStorage_C">S +泰克物品储存箱</sys:String>	
     <sys:String x:Key="PrimalItemStructure_Foundation_Thatch_C">S +茅草地基</sys:String>
     <sys:String x:Key="PrimalItemStructure_Foundation_Wood_C">S +木头地基</sys:String>
@@ -6383,12 +6383,12 @@
     <sys:String x:Key="PrimalItemStructure_Ladder_Metal_C">S +金属梯子</sys:String>
     <sys:String x:Key="PrimalItemStructure_Ladder_Adobe_C">S +黏土梯子</sys:String>
     <sys:String x:Key="PrimalItemStructure_Ladder_Tek_C">S +泰克梯子</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Staircase_Wood_C">S +旋转木头梯子</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Staircase_Stone_C">S +旋转石头梯子</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Staircase_Metal_C">S +旋转金属梯子</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Staircase_Adobe_C">S +旋转黏土梯子</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Staircase_Glass_C">S +旋转玻璃梯子</sys:String>
-    <sys:String x:Key="PrimalItemStructure_Staircase_Tek_C">S +旋转泰克梯子</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Staircase_Wood_C">S +旋轉木头梯子</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Staircase_Stone_C">S +旋轉石头梯子</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Staircase_Metal_C">S +旋轉金属梯子</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Staircase_Adobe_C">S +旋轉黏土梯子</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Staircase_Glass_C">S +旋轉玻璃梯子</sys:String>
+    <sys:String x:Key="PrimalItemStructure_Staircase_Tek_C">S +旋轉泰克梯子</sys:String>
     <sys:String x:Key="PrimalItemStructure_SmallPillar_Wood_C">S +木头小型柱子</sys:String>
     <sys:String x:Key="PrimalItemStructure_SmallPillar_Stone_C">S +石头小型柱子</sys:String>
     <sys:String x:Key="PrimalItemStructure_SmallPillar_Metal_C">S +金属小型柱子</sys:String>
