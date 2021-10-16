@@ -457,7 +457,7 @@
     
     <sys:String x:Key="GlobalSettings_ServerStatusLabel">伺服器狀態選項</sys:String>
     <sys:String x:Key="GlobalSettings_EnableServerStatusActionsLabel">啟用伺服器狀態操作</sys:String>
-    <sys:String x:Key="GlobalSettings_EnableServerStatusActionsTooltip">如果啟用，則點擊伺服器狀態圖标可能會執行一個或多個操作。</sys:String>
+    <sys:String x:Key="GlobalSettings_EnableServerStatusActionsTooltip">如果啟用，則點擊伺服器狀態圖標可能會執行一個或多個操作。</sys:String>
     <sys:String x:Key="GlobalSettings_ShowServerStatusActionConfirmationLabel">顯示伺服器狀態操作確認</sys:String>
     <sys:String x:Key="GlobalSettings_ShowServerStatusActionConfirmationTooltip">如果啟用，將顯示一個對话框来確認伺服器狀態操作。</sys:String>
     
@@ -571,7 +571,7 @@
     <sys:String x:Key="GlobalSettings_EmailPasswordTooltip">與主機帳戶關聯的密碼.</sys:String>
     <sys:String x:Key="GlobalSettings_EmailFromLabel">發送地址:</sys:String>
     <sys:String x:Key="GlobalSettings_EmailFromTooltip">發件人地址的電子邮件.</sys:String>
-    <sys:String x:Key="GlobalSettings_EmailToLabel">發送目标:</sys:String>
+    <sys:String x:Key="GlobalSettings_EmailToLabel">發送目標:</sys:String>
     <sys:String x:Key="GlobalSettings_EmailToTooltip">地址集合，其中包含電子邮件的收件人。用逗號分隔多個電子邮件地址 (,).</sys:String>
     <sys:String x:Key="GlobalSettings_EmailTestButtonLabel">發送测試電子邮件</sys:String>
     <sys:String x:Key="GlobalSettings_EmailNotifySettingsLabel">電子邮件通知設置</sys:String>
@@ -926,7 +926,7 @@
     <sys:String x:Key="ServerSettings_MapsAndModsLabel">地圖和MOD</sys:String>
     <sys:String x:Key="ServerSettings_MapsAndModsSOTFLabel">大逃殺啟用——地圖和MOD禁用</sys:String>
     <sys:String x:Key="ServerSettings_MapPathLabel">地圖名稱或MOD地圖路徑:</sys:String>
-    <sys:String x:Key="ServerSettings_MapPathTooltip">标準地圖名稱 (例如. TheIsland,TheCenter,ScorchedEarth_P,Ragnarok).或本地MOD地圖 例如:(/Game/Mods/504122600/Valhalla) 數字是MOD ID 後面是MOD地圖名字，記得更新你的伺服器下载MOD地圖。</sys:String>
+    <sys:String x:Key="ServerSettings_MapPathTooltip">標準地圖名稱 (例如. TheIsland,TheCenter,ScorchedEarth_P,Ragnarok).或本地MOD地圖 例如:(/Game/Mods/504122600/Valhalla) 數字是MOD ID 後面是MOD地圖名字，記得更新你的伺服器下载MOD地圖。</sys:String>
     <sys:String x:Key="ServerSettings_TotalConversionLabel">總轉換MOD ID:</sys:String>
     <sys:String x:Key="ServerSettings_TotalConversionTooltip">總轉換MOD ID，是方舟裡的一個模式轉換！.</sys:String>
         <sys:String x:Key="ServerSettings_FindTotalConversionMapNameTooltip">讀取總轉換MOD ID找到地圖名稱</sys:String>
@@ -1305,7 +1305,7 @@
     <sys:String x:Key="ServerSettings_EnableWorldBuffScalingLabel">啟用世界Buff效果</sys:String>
     <sys:String x:Key="ServerSettings_EnableWorldBuffScalingTooltip">如果啟用，將使世界buff成倍地扩展其优势，而不是在運行時向該值添加/减去固定數量.</sys:String>
     <sys:String x:Key="ServerSettings_WorldBuffScalingEfficacyLabel">世界Buff比例效果</sys:String>
-    <sys:String x:Key="ServerSettings_WorldBuffScalingEfficacyTooltip">指定全局标量以降低/提高世界增益效果（例如，默認值為1，0.5將降低50%的效果，2.0將提高2倍的效果）.</sys:String>
+    <sys:String x:Key="ServerSettings_WorldBuffScalingEfficacyTooltip">指定全局標量以降低/提高世界增益效果（例如，默認值為1，0.5將降低50%的效果，2.0將提高2倍的效果）.</sys:String>
 
     <sys:String x:Key="ServerSettings_HexagonsLabel">六角币</sys:String>
     <sys:String x:Key="ServerSettings_DisableHexagonStoreLabel">禁用六角币儲存</sys:String>
@@ -1359,13 +1359,13 @@
     <sys:String x:Key="ServerSettings_AllowPlayerGammaInPvETooltip">如果啟用，允許在PVE模式中调整伽马變化.</sys:String>
     <sys:String x:Key="ServerSettings_ShowFloatingDamageTextLabel">顯示浮動傷害數值</sys:String>
     <sys:String x:Key="ServerSettings_ShowFloatingDamageTextTooltip">如果啟用，使用RPG風格的弹出傷害數值模式.</sys:String>
-    <sys:String x:Key="ServerSettings_AllowHitMarkersLabel">允許擊中标記</sys:String>
-    <sys:String x:Key="ServerSettings_AllowHitMarkersTooltip">如果啟用，將顯示遠程攻擊的命中标記.</sys:String>
+    <sys:String x:Key="ServerSettings_AllowHitMarkersLabel">允許擊中標記</sys:String>
+    <sys:String x:Key="ServerSettings_AllowHitMarkersTooltip">如果啟用，將顯示遠程攻擊的命中標記.</sys:String>
     <!--#endregion-->
 
     <!-- 伺服器設置 - 玩家設置 -->
     <sys:String x:Key="ServerSettings_PlayerSettingsLabel">玩家設置</sys:String>
-    <sys:String x:Key="ServerSettings_EnableFlyerCarryLabel">啟用 飛行-携带</sys:String>
+    <sys:String x:Key="ServerSettings_EnableFlyerCarryLabel">允許PVE飛行動物抓取非自己所有的動物</sys:String>
     <sys:String x:Key="ServerSettings_EnableFlyerCarryTooltip">如果啟用，在PVE模式下允許飛行的恐龍，拿起其他恐龍和玩家.</sys:String>
     <sys:String x:Key="ServerSettings_XPMultiplierLabel">經驗倍數:</sys:String>
     <sys:String x:Key="ServerSettings_XPMultiplierTooltip">設置玩家游戲中獲得的經驗倍數.</sys:String>
@@ -1960,7 +1960,7 @@
     <sys:String x:Key="ServerSettings_PGM_Terrain_MountainsHeightLabel">山高度</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Terrain_MountainsHeightTooltip">山高的倍數。</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Terrain_TurbulencePowerLabel">湍流功率</sys:String>
-    <sys:String x:Key="ServerSettings_PGM_Terrain_TurbulencePowerTooltip">湍流函數的功率用于随機扰動输入到噪声函數的坐标，以增加噪声的一些现實。</sys:String>
+    <sys:String x:Key="ServerSettings_PGM_Terrain_TurbulencePowerTooltip">湍流函數的功率用于随機扰動输入到噪声函數的坐標，以增加噪声的一些现實。</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Terrain_ShoreSlopeLabel">岸坡</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Terrain_ShoreSlopeTooltip">從水地到岸的過渡有多难，值越高，過渡越平滑（從0到2）。</sys:String>
     <sys:String x:Key="ServerSettings_PGM_Terrain_ShoreLineEndLabel">岸線端</sys:String>
@@ -2176,7 +2176,7 @@
     <sys:String x:Key="ServerSettings_SupplyCrate_Crate_AppendPreventIncreasingMinMaxItemSetsColumnTooltip">如果啟用，則會動態增加您添加的其他項目集所掉落的項目數量（仅在AppendItemSets = true時適用）。</sys:String>
 
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSet_NameColumnLabel">描述</sys:String>
-    <sys:String x:Key="ServerSettings_SupplyCrate_ItemSet_NameColumnTooltip">用于标识項目的描述。</sys:String>
+    <sys:String x:Key="ServerSettings_SupplyCrate_ItemSet_NameColumnTooltip">用于標识項目的描述。</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSet_MinNumItemsColumnLabel">最少分類</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSet_MinNumItemsColumnTooltip">設置光柱/補给箱/戰利品中最少物品.</sys:String>
     <sys:String x:Key="ServerSettings_SupplyCrate_ItemSet_MaxNumItemsColumnLabel">最多物品</sys:String>
@@ -2410,7 +2410,7 @@
     <sys:String x:Key="RCON_Help_Line28">UnBanPlayer &lt;steam id&gt; - 從伺服器的禁止列表中删除指定的玩家.</sys:String>
     <sys:String x:Key="RCON_Help_Line29">注意:</sys:String>
     <sys:String x:Key="RCON_Help_Line30">&lt;player&gt; 指定玩家的角色名稱</sys:String>
-    <sys:String x:Key="RCON_Help_Line31">&lt;steam id&gt; 是玩家的steam數字标识</sys:String>
+    <sys:String x:Key="RCON_Help_Line31">&lt;steam id&gt; 是玩家的steam數字標识</sys:String>
     <sys:String x:Key="RCON_Help_Line32">&lt;player id&gt; 指定玩家游戲内UE4 ID</sys:String>
 
     <sys:String x:Key="RCON_ClearLogs_Title">删除日志</sys:String>
@@ -3103,7 +3103,7 @@
     <sys:String x:Key="EngramEntry_MetalSickle_C">金属镰刀</sys:String>
     <sys:String x:Key="EngramEntry_MetalSign_C">金属告示牌</sys:String>
     <sys:String x:Key="EngramEntry_MetalSign_Large_C">金属广告牌</sys:String>
-    <sys:String x:Key="EngramEntry_MetalSign_Wall_C">金属标识牌</sys:String>
+    <sys:String x:Key="EngramEntry_MetalSign_Wall_C">金属標识牌</sys:String>
     <sys:String x:Key="EngramEntry_MetalSlopedWall_Left_C">金属墙左倾斜</sys:String>
     <sys:String x:Key="EngramEntry_MetalSlopedWall_Right_C">金属墙右倾斜</sys:String>
     <sys:String x:Key="EngramEntry_MetalSpikeWall_C">金属拒马</sys:String>
@@ -3318,9 +3318,9 @@
     <sys:String x:Key="EngramEntry_WoodRailing_C">木制栅栏</sys:String>
     <sys:String x:Key="EngramEntry_WoodRamp_C">木制斜坡</sys:String>
     <sys:String x:Key="EngramEntry_WoodShield_C">木制盾牌</sys:String>
-    <sys:String x:Key="EngramEntry_WoodSign_C">木制标示牌</sys:String>
+    <sys:String x:Key="EngramEntry_WoodSign_C">木制標示牌</sys:String>
     <sys:String x:Key="EngramEntry_WoodSign_Large_C">木制广告牌</sys:String>
-    <sys:String x:Key="EngramEntry_WoodSign_Wall_C">木制墙标</sys:String>
+    <sys:String x:Key="EngramEntry_WoodSign_Wall_C">木制墙標</sys:String>
     <sys:String x:Key="EngramEntry_WoodSpikeWall_C">木制拒马</sys:String>
     <sys:String x:Key="EngramEntry_WoodTrapdoor_C">木制天窗门</sys:String>
     <sys:String x:Key="EngramEntry_WoodWall_C">木制墙</sys:String>
@@ -3396,7 +3396,7 @@
     <sys:String x:Key="EngramEntry_ArrowFlaming_C">火焰箭</sys:String>
     <sys:String x:Key="EngramEntry_ArrowObsi_C">黑曜石箭</sys:String>
     <sys:String x:Key="EngramEntry_ArrowStone_Feathered_C">石头羽毛箭</sys:String>
-    <sys:String x:Key="EngramEntry_ArrowWoodSign_C">木头箭头标志</sys:String>
+    <sys:String x:Key="EngramEntry_ArrowWoodSign_C">木头箭头標志</sys:String>
     <sys:String x:Key="EngramEntry_BakersOven_C">面包烤箱</sys:String>
     <sys:String x:Key="EngramEntry_Barrel_Gunpowder_C">火药桶</sys:String>
     <sys:String x:Key="EngramEntry_Barrel_Normal_C">儲存桶</sys:String>
@@ -3657,10 +3657,10 @@
     <sys:String x:Key="EngramEntry_RefinedShards_C">不稳定的元素碎片</sys:String>
     <sys:String x:Key="EngramEntry_SpindlesSaddle_C">刺面龍鞍</sys:String>
     <sys:String x:Key="EngramEntry_StorageBox_Balloon_C">货運箱</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyBase_Large_C">大型标本底座</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyBase_Medium_C">中型标本底座</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyBase_Small_C">小型标本底座</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyTool_C">标本工具</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyBase_Large_C">大型標本底座</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyBase_Medium_C">中型標本底座</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyBase_Small_C">小型標本底座</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyTool_C">標本工具</sys:String>
     <!--#endregion-->
 
     <!--#印痕技能泰克類 - 灭绝 -->
@@ -3763,7 +3763,7 @@
     <sys:String x:Key="PrimalItem_RecipeNote_RespecSoup_C">罗克韦尔的食谱: 遗忘汤</sys:String>
     <sys:String x:Key="PrimalItem_RecipeNote_ShadowSteak_C">罗克韦尔的食谱: 暗影牛排</sys:String>
     <sys:String x:Key="PrimalItem_RecipeNote_StaminaSoup_C">罗克韦尔的食谱: 能量药水</sys:String>
-    <sys:String x:Key="PrimalItem_StartingNote_C">植入标本</sys:String>
+    <sys:String x:Key="PrimalItem_StartingNote_C">植入標本</sys:String>
     <sys:String x:Key="PrimalItem_TekGrenade_C">泰克手榴弹</sys:String>
     <sys:String x:Key="PrimalItem_TekRifle_C">泰克步枪</sys:String>
     <sys:String x:Key="PrimalItem_WeaponAlarmTrap_C">绊線報警陷阱</sys:String>
@@ -4417,9 +4417,9 @@
     <sys:String x:Key="PrimalItemStructure_MetalRailing_C">金属栅栏</sys:String>
     <sys:String x:Key="PrimalItemStructure_MetalRamp_C">金属斜坡</sys:String>
     <sys:String x:Key="PrimalItemStructure_MetalRoof_C">金属斜屋顶</sys:String>
-    <sys:String x:Key="PrimalItemStructure_MetalSign_C">金属标识牌</sys:String>
+    <sys:String x:Key="PrimalItemStructure_MetalSign_C">金属標识牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_MetalSign_Large_C">金属广告牌</sys:String>
-    <sys:String x:Key="PrimalItemStructure_MetalSign_Wall_C">金属标识牌</sys:String>
+    <sys:String x:Key="PrimalItemStructure_MetalSign_Wall_C">金属標识牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_MetalSpikeWall_C">金属拒马</sys:String>
     <sys:String x:Key="PrimalItemStructure_MetalStairs_C">金属楼梯</sys:String>
     <sys:String x:Key="PrimalItemStructure_MetalTrapdoor_C">金属天窗</sys:String>
@@ -4551,9 +4551,9 @@
     <sys:String x:Key="PrimalItemStructure_WoodRailing_C">木制栅栏</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodRamp_C">木制斜坡</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodRoof_C">木制倾斜屋顶</sys:String>
-    <sys:String x:Key="PrimalItemStructure_WoodSign_C">木制标志牌</sys:String>
+    <sys:String x:Key="PrimalItemStructure_WoodSign_C">木制標志牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodSign_Large_C">木制的广告牌</sys:String>
-    <sys:String x:Key="PrimalItemStructure_WoodSign_Wall_C">木制标示牌</sys:String>
+    <sys:String x:Key="PrimalItemStructure_WoodSign_Wall_C">木制標示牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodSpikeWall_C">木制拒马</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodStairs_C">木制旋轉楼梯</sys:String>
     <sys:String x:Key="PrimalItemStructure_WoodTrapdoor_C">木制天窗</sys:String>
@@ -4829,7 +4829,7 @@
     <sys:String x:Key="PrimalItemStructure_AdobeWall_PP_C">黏土墙</sys:String>
     <sys:String x:Key="PrimalItemStructure_AdvancedWorkbench_C">高级工作台</sys:String>
     <sys:String x:Key="PrimalItemStructure_AlchemyTable_C">炼金桌</sys:String>
-    <sys:String x:Key="PrimalItemStructure_ArrowWoodSign_C">木头箭头标志牌</sys:String>
+    <sys:String x:Key="PrimalItemStructure_ArrowWoodSign_C">木头箭头標志牌</sys:String>
     <sys:String x:Key="PrimalItemStructure_BakersOven_C">烤箱</sys:String>
     <sys:String x:Key="PrimalItemStructure_BarrelFermenting_C">發酵桶</sys:String>
     <sys:String x:Key="PrimalItemStructure_Barrel_Gunpowder_C">火药桶</sys:String>
@@ -5009,7 +5009,7 @@
 
     <!--#項目類别名稱 - 灭绝-->
     <sys:String x:Key="PrimalItem_WeaponEmptyCryopod_C">空的低温舱</sys:String>
-    <sys:String x:Key="PrimalItem_WeaponTaxidermyTool_C">标本工具</sys:String>
+    <sys:String x:Key="PrimalItem_WeaponTaxidermyTool_C">標本工具</sys:String>
     <sys:String x:Key="PrimalItem_WeaponTekGravityGrenade_C">泰克重力手雷</sys:String>
     <sys:String x:Key="PrimalItemAmmo_CannonShell_C">加农炮弹</sys:String>
     <sys:String x:Key="PrimalItemAmmo_RocketPod_C">火箭弹仓</sys:String>
@@ -5066,9 +5066,9 @@
     <sys:String x:Key="PrimalItemStructure_Flag_KingKaiju_C">泰坦王旗帜</sys:String>
     <sys:String x:Key="PrimalItemStructure_Flag_KingKaijuMecha_C">機械泰坦王旗帜</sys:String>
     <sys:String x:Key="PrimalItemStructure_StorageBox_Balloon_C">货運箱</sys:String>
-    <sys:String x:Key="PrimalItemStructure_TaxidermyBase_Large_C">大型标本底座</sys:String>
-    <sys:String x:Key="PrimalItemStructure_TaxidermyBase_Medium_C">中型标本底座</sys:String>
-    <sys:String x:Key="PrimalItemStructure_TaxidermyBase_Small_C">小型标本底座</sys:String>
+    <sys:String x:Key="PrimalItemStructure_TaxidermyBase_Large_C">大型標本底座</sys:String>
+    <sys:String x:Key="PrimalItemStructure_TaxidermyBase_Medium_C">中型標本底座</sys:String>
+    <sys:String x:Key="PrimalItemStructure_TaxidermyBase_Small_C">小型標本底座</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekBridge_C">泰克桥梁</sys:String>
     <sys:String x:Key="PrimalItemTrophy_Kaiju_Desert_C">沙漠泰坦獎杯</sys:String>
     <sys:String x:Key="PrimalItemTrophy_Kaiju_Forest_C">森林泰坦獎杯</sys:String>
@@ -5911,9 +5911,9 @@
     <sys:String x:Key="EngramEntry_StorageLarge_C">S +大型木制储物箱</sys:String>
     <sys:String x:Key="EngramEntry_StorageMetal_C">S +小型金属保险箱</sys:String>
     <sys:String x:Key="EngramEntry_StorageSmall_C">S +小型木制储物箱</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyPlus_Large_C">S +大型标本底座</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyPlus_Medium_C">S +中型标本底座</sys:String>
-    <sys:String x:Key="EngramEntry_TaxidermyPlus_Small_C">S +小型标本底座</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyPlus_Large_C">S +大型標本底座</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyPlus_Medium_C">S +中型標本底座</sys:String>
+    <sys:String x:Key="EngramEntry_TaxidermyPlus_Small_C">S +小型標本底座</sys:String>
     <sys:String x:Key="EngramEntry_TekBedPlus_C">S +泰克睡眠舱</sys:String>
     <sys:String x:Key="EngramEntry_TekBridgePlus_C">S +泰克桥梁</sys:String>
     <sys:String x:Key="EngramEntry_TekBuggy_C">S +泰克车</sys:String>
@@ -6094,9 +6094,9 @@
     <sys:String x:Key="PrimalItemStructure_ChargeStation_C">S +充電站</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekBedPlus_C">S +泰克睡眠舱</sys:String>
     <sys:String x:Key="PrimalItemStructure_LeashTek_C">S +泰克電子項圈</sys:String>	
-    <sys:String x:Key="PrimalItemStructure_TaxidermyPlus_Small_C">S +小型标本底座</sys:String>	
-    <sys:String x:Key="PrimalItemStructure_TaxidermyPlus_Medium_C">S +中型标本底座</sys:String>
-    <sys:String x:Key="PrimalItemStructure_TaxidermyPlus_Large_C">S +大型标本底座</sys:String>
+    <sys:String x:Key="PrimalItemStructure_TaxidermyPlus_Small_C">S +小型標本底座</sys:String>	
+    <sys:String x:Key="PrimalItemStructure_TaxidermyPlus_Medium_C">S +中型標本底座</sys:String>
+    <sys:String x:Key="PrimalItemStructure_TaxidermyPlus_Large_C">S +大型標本底座</sys:String>
     <sys:String x:Key="PrimalItemStructure_TekBridgePlus_C">S +泰克桥梁</sys:String>	
     <sys:String x:Key="PrimalItemStructure_FridgeTek_C">S +泰克冰箱</sys:String>	
     <sys:String x:Key="PrimalItemStructure_Gardener_C">S +园丁（收集蔬菜水果並保鲜）</sys:String>
